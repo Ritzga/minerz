@@ -12,6 +12,7 @@ namespace Minerz
     /// <summary>
     /// 
     /// </summary>
+    [HarmonyPatch]
     public class Core : ModSystem
     {
         public static string id = "minerz";
@@ -27,11 +28,11 @@ namespace Minerz
             
             harmony = new Harmony(id);
             harmony.PatchAll();
-
+            
             api.Logger.Notification(api is ICoreServerAPI ? Lang.Get("minerz:init-server-loaded") : Lang.Get("minerz:init-client-loaded"));
             //adds new behavior
             api.RegisterEntityBehaviorClass("caveHandler", typeof(EntityBehaviorCheckInCave));
-        }
+        } 
 
         public override void StartServerSide(ICoreServerAPI api)
         {

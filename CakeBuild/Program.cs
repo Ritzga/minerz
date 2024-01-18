@@ -29,6 +29,7 @@ public class BuildContext : FrostingContext
     public const string ProjectName = "Minerz";
     public string BuildConfiguration { get; set; }
     public string Version { get; }
+    public string GameVersion { get; }
     public string Name { get; }
     public bool SkipJsonValidation { get; set; }
 
@@ -37,8 +38,9 @@ public class BuildContext : FrostingContext
     {
         BuildConfiguration = context.Argument("configuration", "Release");
         SkipJsonValidation = context.Argument("skipJsonValidation", false);
-        var modInfo = context.DeserializeJsonFromFile<ModInfo>($"../{BuildContext.ProjectName}/modinfo.json");
+        var modInfo = context.DeserializeJsonFromFile<ModInfo>($"../{ProjectName}/modinfo.json");
         Version = modInfo.Version;
+        GameVersion = modInfo.Dependencies[0].Version;
         Name = modInfo.ModID;
     }
 }
@@ -105,7 +107,7 @@ public sealed class PackageTask : FrostingTask<BuildContext>
         context.CopyDirectory($"../{BuildContext.ProjectName}/assets", $"../Releases/{context.Name}/assets");
         context.CopyFile($"../{BuildContext.ProjectName}/modinfo.json", $"../Releases/{context.Name}/modinfo.json");
         context.CopyFile($"../{BuildContext.ProjectName}/modicon.png", $"../Releases/{context.Name}/modicon.png");
-        context.Zip($"../Releases/{context.Name}", $"../Releases/{context.Name}_{context.Version}.zip");
+        context.Zip($"../Releases/{context.Name}", $"../Releases/{context.Name}-v{context.Version}-.zip");
     }
 }
 

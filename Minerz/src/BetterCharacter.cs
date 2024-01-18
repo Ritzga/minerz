@@ -93,7 +93,7 @@ public class BetterCharacter
     };
     
     [HarmonyPostfix]
-    [HarmonyPatch(typeof(CharacterSystem), "loadCharacterClasses")]
+    [HarmonyPatch(typeof (CharacterSystem), "loadCharacterClasses")]
     public static void ShowCharacterClasses(CharacterSystem __instance)
     {
         foreach (var trait in traits.Where(trait => !__instance.traits.Contains(trait)))
@@ -101,7 +101,7 @@ public class BetterCharacter
             __instance.traits.Add(trait);
             __instance.TraitsByCode[trait.Code] = trait;
         }
-
+        
         foreach (var characterClass in characterClasses.Where(characterClass => !__instance.characterClasses.Contains(characterClass)))
         {
             __instance.characterClasses.Add(characterClass);

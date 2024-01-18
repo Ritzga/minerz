@@ -6,9 +6,9 @@
         "Ritzga"
     ],
     "description": "Adds the miner class to vintage story.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependencies": {
-        "game": "1.18.15"
+        "game": "1.19.0"
     },
     "requiredOnClient": true,
     "requiredOnServer": true
