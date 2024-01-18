@@ -2,7 +2,7 @@
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-        <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
+        <OutputPath>bin\$(Configuration)\Mods\minerz</OutputPath>
     </PropertyGroup>
 
     <ItemGroup>
@@ -18,6 +18,9 @@
             <HintPath>$(VINTAGE_STORY)\Mods\VSEssentials.dll</HintPath>
             <Private>false</Private>
         </Reference>
+        <PackageReference Include="Lib.Harmony" Version="2.3.0-prerelease.2">
+            <Private>false</Private>
+        </PackageReference>
     </ItemGroup>
 
     <ItemGroup>
@@ -27,9 +30,5 @@
         <Content Include="modinfo.json">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Lib.Harmony" Version="2.3.0-prerelease.2" />
     </ItemGroup>
 </Project>
