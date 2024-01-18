@@ -1,0 +1,20 @@
+{
+    "trait-miner": "<font color=\"#84ff84\">• Expresiones faciales habituales</font>",
+    "traitdesc-miner": "En el interior tienes menos hambre",
+
+    "trait-lovesUnderground": "<font color=\"#84ff84\">• Experto en metro</font>",
+    "traitdesc-lovesUnderground": "Te encanta estar en cuevas",
+
+    "trait-coalLung": "<font color=\"#ff8484\">• Pulmón de carbón</font>",
+    "traitdesc-coalLung": "Tus pulmones están dañados después de un largo trabajo en una mina de carbón",
+
+    "charattribute-miningSpeedMul-0.2": "+20% de velocidad de minería",
+    "charattribute-oreDropRate-0.5": "tasa de caída de mineral del 50%",
+    "charattribute-walkspeed--0.1": "-10% de velocidad al caminar",
+    "charattribute-maxhealthExtraPoints--2": "-2 vidas extra",
+    "charattribute-hungerrate-0.15": "+15% tasa de hambre",
+
+    "characterclass-miner": "Minero",
+
+    "characterdesc-miner": "<font color=\"#99c9f9\"><i>Durante años has trabajado en las oscuras profundidades de la tierra, extrayendo carbón para alimentar la industria de la ciudad. Pero hace tiempo que deseas hacer algo. De lo contrario, dejar atrás lo familiar y embarcarse en un nuevo viaje. Con el corazón apesadumbrado, te despides de tus amigos y emprendes un camino desconocido. Anhelabas explorar el mundo que se esconde detrás de los muros manchados de carbón. Al partir, te maravillaste con los colores brillantes de la naturaleza, la suave caricia del viento y el calor del sol en el rostro. Era un marcado contraste con la oscuridad y la monotonía a la que te habías acostumbrado bajo tierra.</i> </font><br><br>Los mineros se especializan en estar bajo tierra y extraer más minerales, pero debido a su forma de vida anterior también son un poco más lentos y tienen hambre con más frecuencia."
+}

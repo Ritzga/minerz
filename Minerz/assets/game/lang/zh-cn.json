@@ -1,0 +1,20 @@
+{
+    "trait-miner": "<font color=\"#84ff84\">• 真正的矿工</font>",
+    "traitdesc-miner": "在封闭的房间里你会减少饥饿",
+
+    "trait-lovesUnderground": "<font color=\"#84ff84\">• 热爱地下</font>",
+    "traitdesc-lovesUnderground": "你喜欢待在洞穴里",
+
+    "trait-coalLung": "<font color=\"#ff8484\">• 煤肺</font>",
+    "traitdesc-coalLung": "你的肺在煤矿工作后受损",
+
+    "charattribute-miningSpeedMul-0.2": "+20% 挖矿速度",
+    "charattribute-oreDropRate-0.5": "50% 矿石掉落率",
+    "charattribute-walkspeed--0.1": "-10% 步行速度",
+    "charattribute-maxhealthExtraPoints--2": "-2 额外生命值",
+    "charattribute-hungerrate-0.15": "+15% 饥饿率",
+
+    "characterclass-miner": "矿工",
+    
+    "characterdesc-miner": "<font color=\"#99c9f9\"><i>多年来，你一直在地球黑暗的深处辛勤劳作，开采煤炭为城镇的工业提供燃料。但是有一天，一颗火花 你内心的好奇心被点燃，促使你离开熟悉的事物，踏上新的征程。怀着沉重的心情，告别矿工同伴，踏上未知的道路。你渴望探索未知的世界。 走进矿井，呼吸新鲜空气，目睹煤墙外的奇观。当你冒险进入外面的世界时，你会惊叹于大自然的鲜艳色彩、风的温柔爱抚和温暖的阳光。 阳光照在他的脸上。这与他已经习惯了地下的黑暗和单调形成了鲜明的对比。</i></font><br><br>矿工专门在地下工作，获取更多矿石，但因为 他们的生活很旧，但他们的速度有点慢，而且更容易挨饿。"
+}

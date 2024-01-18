@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/11",
+    "value": {
+      "code": "caveHandler"
+    },
+    "file": "game:entities/humanoid/player.json",
+    "side": "Server"
+  }
+]

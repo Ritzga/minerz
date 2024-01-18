@@ -1,0 +1,7 @@
+{
+    "init": "تم تحميل [minerz] minerz",
+    "init-client": "بدأ [minerz] في العميل",
+    "init-client-loaded": "تم تحميل فئات [minerz] على العميل",
+    "init-server": "بدأ [minerz] في الخادم",
+    "init-server-loaded": "تم تحميل فئات [minerz] على الخادم"
+}

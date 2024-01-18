@@ -1,0 +1,20 @@
+{
+    "trait-miner": "<font color=\"#84ff84\">• Mineiro real</font>",
+    "traitdesc-miner": "Você fica com menos fome em ambientes fechados",
+
+    "trait-lovesUnderground": "<font color=\"#84ff84\">• Amo o underground</font>",
+    "traitdesc-lovesUnderground": "Você adora estar em cavernas",
+
+    "trait-coalLung": "<font color=\"#ff8484\">• Pulmão de carvão</font>",
+    "traitdesc-coalLung": "Seu pulmão foi danificado depois de trabalhar em uma mina de carvão",
+
+    "charattribute-miningSpeedMul-0.2": "+20% de velocidade de mineração",
+    "charattribute-oreDropRate-0.5": "Taxa de queda de minério de 50%",
+    "charattribute-walkspeed--0.1": "-10% velocidade de caminhada",
+    "charattribute-maxhealthExtraPoints--2": "-2 pontos de saúde extras",
+    "charattribute-hungerrate-0.15": "+15% taxa de fome",
+
+    "characterclass-miner": "Mineiro",
+    
+    "characterdesc-miner": "<font color=\"#99c9f9\"><i>Durante anos, você trabalhou nas profundezas escuras da terra, extraindo carvão para abastecer as indústrias da cidade. Mas um dia, uma faísca de curiosidade acesa dentro de você, incentivando-o a deixar para trás o que lhe é familiar e embarcar em uma nova jornada. Com o coração pesado, você se despede de seus colegas mineiros e parte em um caminho desconhecido. Você ansiava por explorar o mundo além dos limites de da mina, para respirar o ar puro e testemunhar as maravilhas que existem além das paredes manchadas de carvão. Ao se aventurar no mundo exterior, você se maravilha com as cores vibrantes da natureza, a carícia suave do vento e o calor do o sol em seu rosto. Era um forte contraste com a escuridão e a monotonia a que ele estava acostumado no subsolo.</i></font><br><br>Os mineradores são especializados para estar no subsolo, obtêm mais minérios, mas por causa de sua antiga vida, mas eles são um pouco mais lentos e ficam com fome com mais frequência."
+}

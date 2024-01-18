@@ -1,0 +1,15 @@
+{
+    "type": "Code",
+    "modid": "minerz",
+    "name": "Minerz",
+    "authors": [
+        "Ritzga"
+    ],
+    "description": "Adds the miner class to vintage story.",
+    "version": "0.0.2",
+    "dependencies": {
+        "game": "1.18.15"
+    },
+    "requiredOnClient": true,
+    "requiredOnServer": true
+}

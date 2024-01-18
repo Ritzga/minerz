@@ -1,0 +1,20 @@
+{
+    "trait-miner": "<font color=\"#84ff84\">• 本物のマイナー</font>",
+    "traitdesc-miner": "密室ではお腹が減ります",
+
+    "trait-lovesUnderground": "<font color=\"#84ff84\">• アンダーグラウンドが大好き</font>",
+    "traitdesc-lovesUnderground": "洞窟にいるのが大好きですね",
+
+    "trait-coalLung": "<font color=\"#ff8484\">• 石炭肺</font>",
+    "traitdesc-coalLung": "炭鉱で働いた後、肺が損傷しました",
+
+    "charattribute-miningSpeedMul-0.2": "+20% マイニング速度",
+    "charattribute-oreDropRate-0.5": "鉱石ドロップ率 50%",
+    "charattribute-walkspeed--0.1": "歩行速度 -10%",
+    "charattribute-maxhealthExtraPoints--2": "-2 追加の健康ポイント",
+    "charattribute-hungerrate-0.15": "+15% 飢餓率",
+
+    "characterclass-miner": "マイナー",
+
+    "characterdesc-miner": "<font color=\"#99c9f9\"><i>何年もの間、あなたは暗い地底で働き、町の産業の燃料となる石炭を採掘してきました。しかし、ある日、火花が降り注ぎました。 あなたの中に好奇心が燃え上がり、慣れ親しんだものを離れて新しい旅に出ようと促します。重い心で、仲間の鉱山労働者に別れを告げ、未知の道に出発します。あなたは、世界の限界を超えた世界を探索することに憧れていました。 鉱山では、新鮮な空気を吸い込み、石炭で汚れた壁の向こうに広がる驚異を目撃し、外の世界に足を踏み入れると、自然の鮮やかな色、風の優しい撫で方、そして木の暖かさに驚嘆します。 彼の顔には太陽が輝いていました。それは、彼が地下で慣れ親しんできた暗闇と単調さとは全く対照的でした。</i></font><br><br>鉱山労働者は地下でより多くの鉱石を手に入れることに特化していますが、その理由は次のとおりです。 彼らは以前の生活を続けていますが、少し遅くなり、頻繁にお腹が空くようになりました。"
+}

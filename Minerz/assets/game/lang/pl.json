@@ -1,0 +1,20 @@
+{
+    "trait-miner": "<font color=\"#84ff84\"> • Prawdziwy górnik</font>",
+    "traitdesc-miner": "W zamkniętych pomieszczeniach jesteś mniej głodny",
+
+    "trait-lovesUnderground": "<font color=\"#84ff84\"> • Kochaj underground</font>",
+    "traitdesc-lovesUnderground": "Uwielbiasz przebywać w jaskiniach",
+
+    "trait-coalLung": "<font color=\"#ff8484\"> • Płuca węglowe</font>",
+    "traitdesc-coalLung": "Twoje płuca zostały uszkodzone po pracy w kopalni węgla",
+
+    "charattribute-miningSpeedMul-0.2": "+20% szybkości wydobywania",
+    "charattribute-oreDropRate-0.5": "50% współczynnik wypadania rudy",
+    "charattribute-walkspeed--0.1": "-10% szybkości chodzenia",
+    "charattribute-maxhealthExtraPoints--2": "-2 dodatkowe punkty zdrowia",
+    "charattribute-hungerrate-0.15": "+15% wskaźnika głodu",
+
+    "characterclass-miner": "Górnik",
+
+    "characterdesc-miner": "<font color=\"#99c9f9\"><i>Przez lata harowałeś w ciemnych głębinach ziemi, wydobywając węgiel, który miał napędzać przemysł miasta. Jednak pewnego dnia pojawiła się iskra rozpaliła się w Tobie ciekawość, namawiająca Cię do porzucenia tego, co znane i wyruszenia w nową podróż. Z ciężkim sercem żegnasz swoich kolegów górników i wyruszasz na nieznaną ścieżkę. Pragnąłeś poznać świat poza granicami kopalni, aby odetchnąć świeżym powietrzem i być świadkiem cudów kryjących się za poplamionymi węglem ścianami. Wyruszając w świat zewnętrzny, zachwycałeś się żywymi kolorami natury, delikatną pieszczotą wiatru i ciepłem słońce na jego twarzy. Stanowiło to wyraźny kontrast w stosunku do ciemności i monotonii, do której przywykł pod ziemią.</i></font><br><br>Górnicy specjalizują się w pracy pod ziemią, wydobywaniu większej ilości rudy, ale z powodu ich dawne życie, ale są nieco wolniejsze i częściej odczuwają głód."
+}

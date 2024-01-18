@@ -1,0 +1,7 @@
+{
+    "init": "[minerz] minerz loaded",
+    "init-client": "[minerz]クライアントで開始",
+    "init-client-loaded": "「minerz]クラスがクライアントにロードされた",
+    "init-server": "サーバーで[minerz]を開始",
+    "init-server-loaded": "[minerz]クラスがサーバーにロードされた"
+}

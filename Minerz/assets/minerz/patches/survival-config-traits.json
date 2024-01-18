@@ -1,0 +1,39 @@
+[
+  {
+    "op": "replace",
+    "path": "/25",
+    "value": {
+      "code": "miner",
+      "type": "mixed",
+      "attributes": {
+        "miningSpeedMul": 0.3,
+        "oreDropRate": 0.5,
+        "hungerrate": 0.15
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/26",
+    "value": {
+      "code": "lovesUnderground",
+      "type": "positive",
+      "attributes": {}
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/27",
+    "value": {
+      "code": "coalLung",
+      "type": "negative",
+      "attributes": {
+        "maxhealthExtraPoints": -2,
+        "walkspeed": -0.1
+      }
+    },
+    "file": "game:config/traits.json"
+  }
+]

@@ -1,0 +1,20 @@
+{
+    "trait-miner": "<font color=\"#84ff84\">• Riktig gruvarbetare</font>",
+    "traitdesc-miner": "Du blir mindre hungrig i stängda rum",
+
+    "trait-lovesUnderground": "<font color=\"#84ff84\">• Kärlek underground</font>",
+    "traitdesc-lovesUnderground": "Du älskar att vara i grottor",
+
+    "trait-coalLung": "<font color=\"#ff8484\">• Kollunga</font>",
+    "traitdesc-coalLung": "Din lunga är skadad efter att ha arbetat i en kolgruva",
+
+    "charattribute-miningSpeedMul-0.2": "+20 % gruvhastighet",
+    "charattribute-oreDropRate-0.5": "50 % malmfallshastighet",
+    "charattribute-walkspeed--0.1": "-10 % gånghastighet",
+    "charattribute-maxhealthExtraPoints--2": "-2 extra hälsopoäng",
+    "charattribute-hungerrate-0.15": "+15 % hungerfrekvens",
+
+    "characterclass-miner": "Gruvarbetare",
+
+    "characterdesc-miner": "<font color=\"#99c9f9\"><i>I åratal hade du slitit iväg i jordens mörka djup och utvunnit kol för att ge bränsle till stadens industrier. Men en dag kom en gnista av nyfikenhet tändes inom dig och uppmanade dig att lämna det välbekanta bakom dig och ge dig ut på en ny resa. Med tungt hjärta tar du farväl av sina gruvarbetare och ger dig av på en okänd väg. Du längtade efter att utforska världen bortom gränserna för gruvan, för att andas in den friska luften och bevittna underverken som låg bortom de kolbefläckade väggarna. När du vågade dig ut i omvärlden förundrade du dig över naturens livliga färger, vindens milda smekning och värmen från solen i ansiktet. Det var en stark kontrast till mörkret och monotonin han hade vant sig vid under jorden.</i></font><br><br>Gruvarbetare är specialiserade på att vara underjordiska, få fler malmer men pga. deras gamla liv, men de är lite långsammare och blir hungriga oftare."
+}

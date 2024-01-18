@@ -1,0 +1,7 @@
+{
+    "init": "[minerz] minerz chargé",
+    "init-client": "[minerz] démarré dans le client",
+    "init-client-loaded": "[minerz] classes chargées sur le client",
+    "init-server": "[minerz] démarré sur le serveur",
+    "init-server-loaded": "[minerz] classes chargées sur le serveur"
+}

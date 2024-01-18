@@ -1,0 +1,7 @@
+{
+    "init": "[minerz] minerz laddad",
+    "init-client": "[minerz] startad i klient",
+    "init-client-loaded": "[minerz] klasser laddade på klient",
+    "init-server": "[minerz] startad i server",
+    "init-server-loaded": "[minerz] klasser laddade på server"
+}

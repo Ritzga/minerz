@@ -1,0 +1,20 @@
+{
+    "trait-miner": "<font color=\"#84ff84\">• Echte mijnwerker</font>",
+    "traitdesc-miner": "Je krijgt minder honger in gesloten ruimtes",
+
+    "trait-lovesUnderground": "<font color=\"#84ff84\">• Liefde ondergronds</font>",
+    "traitdesc-lovesUnderground": "Je houdt ervan om in grotten te zijn",
+
+    "trait-coalLung": "<font color=\"#ff8484\">• Steenkoollong</font>",
+    "traitdesc-coalLung": "Je long is beschadigd na het werken in een kolenmijn",
+
+    "charattribute-miningSpeedMul-0.2": "+20% mijnsnelheid",
+    "charattribute-oreDropRate-0.5": "50% ertsdalingspercentage",
+    "charattribute-walkspeed--0.1": "-10% loopsnelheid",
+    "charattribute-maxhealthExtraPoints--2": "-2 extra gezondheidspunten",
+    "charattribute-hungerrate-0.15": "+15% hongerpercentage",
+
+    "characterclass-miner": "Mijnwerker",
+
+    "characterdesc-miner": "<font color=\"#99c9f9\"><i>Jarenlang had je in de donkere diepten van de aarde gezwoegd om steenkool te winnen om de industrieën van de stad van brandstof te voorzien. Maar op een dag kwam er een vonk Een nieuwsgierigheid die in je ontbrandt en je ertoe aanzet het bekende achter je te laten en aan een nieuwe reis te beginnen. Met pijn in het hart neem je afscheid van zijn medemijnwerkers en ga je op een onbekend pad. Je verlangde ernaar de wereld buiten de grenzen van de wereld te verkennen. de mijn, om de frisse lucht in te ademen en getuige te zijn van de wonderen die achter de met kolen besmeurde muren lagen. Terwijl je je naar de buitenwereld waagde, verwonderde je je over de levendige kleuren van de natuur, de zachte streling van de wind en de warmte van de zon op zijn gezicht. Het stond in schril contrast met de duisternis en eentonigheid waaraan hij ondergronds gewend was geraakt.</i></font><br><br>Mijnwerkers zijn gespecialiseerd om ondergronds te zijn, ze krijgen meer ertsen, maar vanwege hun oude leven, maar ze zijn wat langzamer en hebben vaker honger."
+}

@@ -1,0 +1,20 @@
+{
+    "trait-miner": "<font color=\"#84ff84\">• Expressions faciales habituelles</font>",
+    "traitdesc-miner": "On a moins faim à l'intérieur",
+
+    "trait-lovesUnderground": "<font color=\"#84ff84\">• Expert souterrain</font>",
+    "traitdesc-lovesUnderground": "Vous adorez être dans les grottes",
+
+    "trait-coalLung": "<font color=\"#ff8484\">• Poumon de charbon</font>",
+    "traitdesc-coalLung": "Vos poumons sont endommagés après un long travail dans une mine de charbon",
+
+    "charattribute-miningSpeedMul-0.2": "+20% de vitesse de minage",
+    "charattribute-oreDropRate-0.5": "Taux de chute de minerai de 50 %",
+    "charattribute-walkspeed--0.1": "-10% de vitesse de marche",
+    "charattribute-maxhealthExtraPoints--2": "-2 vies supplémentaires",
+    "charattribute-hungerrate-0.15": "+15% de taux de faim",
+
+    "characterclass-miner": "Mineur",
+
+    "characterdesc-miner": "<font color=\"#99c9f9\"><i>Pendant des années, vous avez travaillé dans les profondeurs sombres de la terre, extrayant du charbon pour alimenter l'industrie de la ville. Mais vous vouliez depuis longtemps faire quelque chose Sinon, laisser derrière vous ce qui vous est familier et vous lancer dans un nouveau voyage. Le cœur lourd, vous dites au revoir à vos amis et partez sur un chemin inconnu. Vous aviez envie d'explorer le monde qui se cache derrière les murs tachés de charbon. En partant, vous vous émerveilliez devant les couleurs vives de la nature, la douce caresse du vent et la chaleur du soleil sur son visage. C'était un contraste saisissant avec l'obscurité et la monotonie auxquelles vous vous étiez habitué sous terre.</i> </font><br><br>Les mineurs se spécialisent dans l'exploitation souterraine et l'extraction de plus de minerais, mais en raison de leur ancienne vie, ils sont également un peu plus lents et ont plus souvent faim."
+}

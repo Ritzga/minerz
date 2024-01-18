@@ -1,0 +1,9 @@
+{
+    "init": "[minerz] Minerz gestartet",
+    "init-client": "[minerz] Client gestartet",
+    "init-client-loaded": "[minerz] Klassen auf dem Client geladen",
+    "init-server": "[minerz] Server gestartet",
+    "init-server-loaded": "[minerz] Klassen auf dem Server geladen",
+    "debug-player-empty": "[minerz] Spieler-Objekt ist leer",
+    "debug-entity-empty": "[minerz] Spieler-Entität ist leer"
+}

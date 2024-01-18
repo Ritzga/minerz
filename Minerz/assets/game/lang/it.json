@@ -1,0 +1,20 @@
+{
+    "trait-miner": "<font color=\"#84ff84\">• Vero minatore</font>",
+    "traitdesc-miner": "In ambienti chiusi si ha meno fame",
+
+    "trait-lovesUnderground": "<font color=\"#84ff84\">• Amo l'underground</font>",
+    "traitdesc-lovesUnderground": "Ti piace stare nelle caverne",
+
+    "trait-coalLung": "<font color=\"#ff8484\">• Polmone di carbone</font>",
+    "traitdesc-coalLung": "Il tuo polmone è danneggiato dopo aver lavorato in una miniera di carbone",
+
+    "charattribute-miningSpeedMul-0.2": "+20% velocità di mining",
+    "charattribute-oreDropRate-0.5": "Tasso di rilascio del minerale del 50%",
+    "charattribute-walkspeed--0.1": "-10% velocità di camminata",
+    "charattribute-maxhealthExtraPoints--2": "-2 punti salute extra",
+    "charattribute-hungerrate-0.15": "+15% tasso di fame",
+
+    "characterclass-miner": "Minatore",
+
+    "characterdesc-miner": "<font color=\"#99c9f9\"><i>Per anni hai lavorato duramente nelle oscure profondità della terra, estraendo carbone per alimentare le industrie della città. Ma un giorno, una scintilla La curiosità si è accesa dentro di te, spingendoti a lasciare alle spalle ciò che ti è familiare e intraprendere un nuovo viaggio. Con il cuore pesante, hai salutato i suoi compagni minatori e sei partito per un percorso sconosciuto. Desideravi esplorare il mondo oltre i confini di la miniera, per respirare l'aria fresca e testimoniare le meraviglie che si celano oltre le mura macchiate di carbone. Mentre ti avventuravi nel mondo esterno, ti meravigliavi dei colori vibranti della natura, della dolce carezza del vento e del calore del il sole sul viso. Era in netto contrasto con l'oscurità e la monotonia a cui era abituato sottoterra.</i></font><br><br>I minatori sono specializzati per stare sottoterra, ottenere più minerali ma a causa la loro vecchia vita, ma sono un po’ più lenti e hanno fame più spesso."
+}

@@ -1,0 +1,20 @@
+{
+    "trait-miner": "<font color=\"#84ff84\">• Skutočný baník</font>",
+    "traitdesc-miner": "V uzavretých miestnostiach budete menej hladní",
+
+    "trait-lovesUnderground": "<font color=\"#84ff84\">• Láska pod zemou</font>",
+    "traitdesc-lovesUnderground": "Miluješ to byť v jaskyniach",
+
+    "trait-coalLung": "<font color=\"#ff8484\">• Uhoľné pľúca</font>",
+    "traitdesc-coalLung": "Vaše pľúca sú poškodené po práci v uhoľnej bani",
+
+    "charattribute-miningSpeedMul-0.2": "+20 % rýchlosť ťažby",
+    "charattribute-oreDropRate-0.5": "50 % miera poklesu rudy",
+    "charattribute-walkspeed--0.1": "-10 % rýchlosť chôdze",
+    "charattribute-maxhealthExtraPoints--2": "-2 body zdravia navyše",
+    "charattribute-hungerrate-0.15": "miera hladu + 15 %",
+
+    "characterclass-miner": "Baník",
+
+    "characterdesc-miner": "<font color=\"#99c9f9\"><i>Celé roky ste sa dreli v temných hlbinách zeme a ťažili uhlie, aby ste podporili priemysel v meste. Jedného dňa však prebleskne vznietila sa vo vás zvedavosť, ktorá vás nabáda zanechať za sebou známe a vydať sa na novú cestu. S ťažkým srdcom sa rozlúčite s jeho kolegami baníkmi a vydáte sa na cestu neznámu. Túžili ste preskúmať svet za hranicami bane, aby ste sa nadýchli čerstvého vzduchu a boli svedkami zázrakov, ktoré sa skrývali za stenami znečistenými uhlím. Keď ste sa vydali do vonkajšieho sveta, žasli ste nad živými farbami prírody, jemným pohladením vetra a teplom slnko na jeho tvári. Bol to ostrý kontrast s temnotou a monotónnosťou, na ktorú si pod zemou zvykol.</i></font><br><br>Baníci sa špecializujú na to, aby boli pod zemou, získali viac rúd, ale kvôli svoj starý život, ale sú o niečo pomalší a častejšie hladujú."
+}

@@ -1,0 +1,7 @@
+{
+    "init": "[minerz] minerz 已加载",
+    "init-client": "[minerz] 已在客户端启动",
+    "init-client-loaded": "[minerz] 已在客户端加载类",
+    "init-server": "[minerz] 在客户端启动 服务器启动",
+    "init-server-loaded": "[minerz] 类已在服务器上加载"
+}

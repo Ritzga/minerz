@@ -1,0 +1,7 @@
+{
+    "init": "[minerz] минерз учитан",
+    "init-client": "[minerz] је покренут у клијенту",
+    "init-client-loaded": "[minerz] класе учитане на клијенту",
+    "init-server": "[minerz] је покренут на серверу",
+    "init-server-loaded": "[minerz] класе учитане на серверу"
+}
