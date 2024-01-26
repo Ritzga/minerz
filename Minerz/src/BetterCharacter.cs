@@ -26,32 +26,47 @@ public class BetterCharacter
                 new()
                 {
                     Type = EnumItemClass.Item,
-                    Code = new AssetLocation("game", "clothes-face-tailor-mask"),
+                    Code = new AssetLocation("game", "clothes-face-miner"),
                 },
                 new()
                 {
                     Type = EnumItemClass.Item,
-                    Code = new AssetLocation("game", "clothes-upperbody-blackguard-shirt"),
+                    Code = new AssetLocation("game", "clothes-hand-miner"),
                 },
                 new()
                 {
                     Type = EnumItemClass.Item,
-                    Code = new AssetLocation("game", "clothes-lowerbody-blackguard-leggings"),
+                    Code = new AssetLocation("game", "clothes-upperbody-miner"),
                 },
                 new()
                 {
                     Type = EnumItemClass.Item,
-                    Code = new AssetLocation("game", "clothes-foot-blackguard-shoes"),
+                    Code = new AssetLocation("game", "clothes-lowerbody-miner"),
                 },
                 new()
                 {
                     Type = EnumItemClass.Item,
-                    Code = new AssetLocation("game", "clothes-emblem-blackguard-pin"),
+                    Code = new AssetLocation("game", "clothes-foot-miner"),
                 },
                 new()
                 {
                     Type = EnumItemClass.Item,
-                    Code = new AssetLocation("game", "clothes-waist-blackguard-belt"),
+                    Code = new AssetLocation("game", "clothes-upperbodyover-miner"),
+                },
+                new()
+                {
+                    Type = EnumItemClass.Item,
+                    Code = new AssetLocation("game", "clothes-waist-miner"),
+                },
+                new()
+                {
+                    Type = EnumItemClass.Item,
+                    Code = new AssetLocation("game", "clothes-waist-miner"),
+                },
+                new()
+                {
+                    Type = EnumItemClass.Item,
+                    Code = new AssetLocation("minerz", "armor-head-miner"),
                 }
             },
             Traits = new []

@@ -1,0 +1,100 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"collapsedPaths": "Root/bandN/toothR1,Root/bandN/toothL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "entity/humanoid/serapharmor/mining/mining"
+	},
+	"elements": [
+		{
+			"name": "MiningHelmet",
+			"stepParentName": "Head",
+			"from": [ -0.9, 1.0, -1.0 ],
+			"to": [ 7.1, 5.0, 6.0 ],
+			"unwrapMode": 1,
+			"autoUnwrap": false,
+			"uv": [ 3.0, 5.5 ],
+			"rotationOrigin": [ -0.9, 1.3, -1.6 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 16.0, 8.0, 24.0, 12.0 ], "autoUv": false },
+				"east": { "texture": "#material", "uv": [ 0.0, 8.0, 8.0, 12.0 ], "autoUv": false },
+				"south": { "texture": "#material", "uv": [ 24.0, 8.0, 32.0, 12.0 ], "autoUv": false },
+				"west": { "texture": "#material", "uv": [ 8.0, 7.0, 16.0, 12.0 ], "autoUv": false },
+				"up": { "texture": "#material", "uv": [ 8.0, 0.0, 16.0, 8.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#material", "uv": [ 0.0, 16.0, 12.0, 28.0 ], "rotation": 270, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Lamp",
+					"from": [ -0.55, 2.5, 2.0 ],
+					"to": [ -0.05, 5.5, 5.0 ],
+					"autoUnwrap": false,
+					"uv": [ 4.0, 14.0 ],
+					"rotationOrigin": [ -1.0, 1.0, 1.0 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 28.0, 3.0, 28.5 ], "rotation": 90 },
+						"east": { "texture": "#material", "uv": [ 36.0, 0.0, 40.0, 3.0 ], "autoUv": false },
+						"south": { "texture": "#material", "uv": [ 6.0, 28.0, 9.0, 28.5 ], "rotation": 90 },
+						"west": { "texture": "#material", "uv": [ 12.0, 22.0, 18.0, 28.0 ], "autoUv": false },
+						"up": { "texture": "#material", "uv": [ 3.0, 28.0, 6.0, 28.5 ], "rotation": 90 },
+						"down": { "texture": "#material", "uv": [ 9.0, 28.0, 12.0, 28.5 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "RodRight",
+							"from": [ 0.3, 1.8, 0.5 ],
+							"to": [ 1.8, 2.3, 1.0 ],
+							"uv": [ 18.0, 28.0 ],
+							"rotationOrigin": [ 1.0, 2.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 18.0, 29.0, 19.0, 30.0 ] },
+								"east": { "texture": "#material", "uv": [ 19.0, 29.0, 20.0, 30.0 ] },
+								"south": { "texture": "#material", "uv": [ 20.0, 29.0, 21.0, 30.0 ] },
+								"west": { "texture": "#material", "uv": [ 21.0, 29.0, 22.0, 30.0 ] },
+								"up": { "texture": "#material", "uv": [ 18.0, 28.0, 19.0, 29.0 ] },
+								"down": { "texture": "#material", "uv": [ 19.0, 28.0, 20.0, 29.0 ] }
+							}
+						},
+						{
+							"name": "RodLeft",
+							"from": [ 0.3, 1.8, 2.0 ],
+							"to": [ 1.8, 2.3, 2.5 ],
+							"uv": [ 18.0, 28.0 ],
+							"rotationOrigin": [ 1.0, 2.0, 2.0 ],
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 18.0, 29.0, 19.0, 30.0 ] },
+								"east": { "texture": "#material", "uv": [ 19.0, 29.0, 20.0, 30.0 ] },
+								"south": { "texture": "#material", "uv": [ 20.0, 29.0, 21.0, 30.0 ] },
+								"west": { "texture": "#material", "uv": [ 21.0, 29.0, 22.0, 30.0 ] },
+								"up": { "texture": "#material", "uv": [ 18.0, 28.0, 19.0, 29.0 ] },
+								"down": { "texture": "#material", "uv": [ 19.0, 28.0, 20.0, 29.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "TopPlate",
+					"from": [ 0.5, 3.5, 0.5 ],
+					"to": [ 7.5, 5.0, 6.5 ],
+					"autoUnwrap": false,
+					"uv": [ 27.0, 16.0 ],
+					"rotationOrigin": [ 0.0, 3.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 1.0, 11.0, 7.0, 12.0 ], "autoUv": false },
+						"east": { "texture": "#material", "uv": [ 17.0, 11.0, 23.0, 12.0 ], "autoUv": false },
+						"south": { "texture": "#material", "uv": [ 25.0, 11.0, 31.0, 12.0 ], "autoUv": false },
+						"west": { "texture": "#material", "uv": [ 18.0, 11.0, 22.0, 12.0 ], "autoUv": false },
+						"up": { "texture": "#material", "uv": [ 9.0, 1.0, 15.0, 7.0 ], "autoUv": false },
+						"down": { "texture": "#material", "uv": [ 2.0, 2.0, 9.0, 8.0 ] }
+					}
+				}
+			]
+		}
+	]}

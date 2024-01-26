@@ -1,0 +1,19 @@
+﻿[
+    {
+        "ingredientPattern": "_P_PLP",
+        "ingredients": {
+            "P": { "type": "item", "code": "game:metalplate-*"},
+            "L": { "type": "block", "code": "game:lantern-*"}
+        },
+        "requiresTrait": "miner",
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "armor-head-miner",
+            "attributes": {
+                "material": "{material}"
+            }
+        }
+    }
+]

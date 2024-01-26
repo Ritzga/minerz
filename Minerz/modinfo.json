@@ -2,14 +2,16 @@
     "type": "Code",
     "modid": "minerz",
     "name": "Minerz",
+    "website": "https://Ritzga.dog",
     "authors": [
         "Ritzga"
     ],
     "description": "Adds the miner class to vintage story.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependencies": {
         "game": "1.19.0"
     },
+    "side" : "Universal",
     "requiredOnClient": true,
     "requiredOnServer": true
 }

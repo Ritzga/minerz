@@ -1,9 +1,10 @@
 {
-  "init": "[minerz] minerz loaded",
-  "init-client": "[minerz] started in client",
-  "init-client-loaded": "[minerz] classes loaded on client",
-  "init-server": "[minerz] started in server",
-  "init-server-loaded": "[minerz] classes loaded on server",
-  "debug-player-empty": "[minerz] player is empty on join",
-  "debug-entity-empty": "[minerz] player entity is empty on join"
+    "item-armor-head-miner": "Miner helmet",
+    "init": "[minerz] minerz loaded",
+    "init-client": "[minerz] started in client",
+    "init-client-loaded": "[minerz] classes loaded on client",
+    "init-server": "[minerz] started in server",
+    "init-server-loaded": "[minerz] classes loaded on server",
+    "debug-player-empty": "[minerz] player is empty on join",
+    "debug-entity-empty": "[minerz] player entity is empty on join"
 }
