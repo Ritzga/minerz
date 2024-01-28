@@ -1,5 +1,5 @@
 {
-    "code": "armor-head-miner",
+    "code": "minerz:armor-head-miner",
     "class": "ItemWearable",
 
     "shape": { "base": "entity/humanoid/seraph/armor/mining/head-mining" },

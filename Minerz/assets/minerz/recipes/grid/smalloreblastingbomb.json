@@ -1,0 +1,14 @@
+{
+	"ingredientPattern": "BCF",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:stone-bauxite", "quantity": 4 },
+		"C": { "type": "item", "code": "game:gear-rusty"},
+		"F": { "type": "item", "code": "game:clay-*" }
+	},
+	"requiresTrait": "miner",
+	"name": "minerz:small-oreblasting-bomb",
+	"width": 3,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "block", "code": "minerz:small-oreblastingbomb", "quantity": 2  }
+}

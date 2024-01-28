@@ -10,7 +10,7 @@
         "height": 2,
         "output": {
             "type": "item",
-            "code": "armor-head-miner",
+            "code": "minerz:armor-head-miner",
             "attributes": {
                 "material": "{material}"
             }

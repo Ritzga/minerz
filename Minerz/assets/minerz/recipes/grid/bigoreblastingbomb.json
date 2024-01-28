@@ -1,0 +1,14 @@
+{
+	"ingredientPattern": "FCF,FBF,FFF",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 8 },
+		"F": { "type": "item", "code": "game:burnedbrick-*", "name": "material", "allowedVariants": [ "brown",  "blue" ,  "fire" ,  "red"]}
+	},
+	"requiresTrait": "miner",
+	"name": "minerz:big-oreblasting-bomb",
+	"width": 3,
+	"height": 3,
+	"shapeless": true,
+	"output": { "type": "block", "code": "minerz:big-oreblastingbomb", "quantity": 1 }
+}

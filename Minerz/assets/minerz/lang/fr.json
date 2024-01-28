@@ -1,10 +1,19 @@
 {
-    "item-armor-head-miner": "Casque de mineur",
+
     "init": "[minerz] minerz chargé",
     "init-client": "[minerz] démarré dans le client",
     "init-client-loaded": "[minerz] classes chargées sur le client",
     "init-server": "[minerz] démarré sur le serveur",
     "init-server-loaded": "[minerz] classes chargées sur le serveur",
     "debug-player-empty": "[minerz] le player est vide au moment de l'adhésion",
-    "debug-entity-empty": "[minerz] le player est vide au moment de l'adhésion"
+    "debug-entity-empty": "[minerz] le player est vide au moment de l'adhésion",
+
+    "item-armor-head-miner": "Casque de mineur",
+    "itemdesc-armor-head-miner": "Casque de mineur avec une lampe.",
+
+    "block-small-oreblastingbomb": "Bombe improvisée",
+    "blockdesc-small-oreblastingbomb": "Bombe improvisée pour extraire des minerais sur une zone de 3 blocs.",
+
+    "block-big-oreblastingbomb": "Bombe d'abattage de gros",
+    "blockdesc-big-oreblastingbomb": "Énorme bombe à minerai pour extraire des minerais sur une zone de 8 blocs. Courez après l'allumage!"
 }
