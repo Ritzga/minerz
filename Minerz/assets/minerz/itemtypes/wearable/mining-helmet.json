@@ -3,11 +3,9 @@
     "class": "ItemWearable",
 
     "shape": { "base": "entity/humanoid/seraph/armor/mining/head-mining" },
-    "glowLevel": 20,
     "storageFlags": 128,
-
+    
     "attributes": {
-        "itemlight": [16, 16, 16],
         "rackable": true,
         "toolrackTransform": {
             "translation": { "x": 0, "y": 0, "z": 0 },
@@ -18,7 +16,8 @@
         "disableElements": ["Hair tile upper part", "ponytailhigh", "ponytaillow",  "hideme", "sidehigh", "sidelow"],
         "clothescategory": "armorhead",
         "handbook": { "groupBy": ["miner-*"] },
-        "warmth": 0.25
+        "warmth": 0.25,
+        "itemlight": [7, 7, 7]
     },
     
     "textures": {

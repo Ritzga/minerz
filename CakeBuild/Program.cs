@@ -65,8 +65,7 @@ public sealed class ValidateJsonTask : FrostingTask<BuildContext>
             }
             catch (JsonException ex)
             {
-                throw new Exception(
-                    $"Validation failed for JSON file: {file.FullPath}{Environment.NewLine}{ex.Message}", ex);
+                throw new Exception($"Validation failed for JSON file: {file.FullPath}{Environment.NewLine}{ex.Message}", ex);
             }
         }
     }

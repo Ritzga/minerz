@@ -8,7 +8,7 @@
     "debug-entity-empty": "[minerz] player entity is empty on join",
 
     "item-armor-head-miner": "Miner helmet",
-    "itemdesc-armor-head-miner": "Miner helmet with a small lamp (not working).",
+    "itemdesc-armor-head-miner": "Miner helmet with a small lamp.",
     
     "block-small-oreblastingbomb": "Improvised ore blasting bomb",
     "blockdesc-small-oreblastingbomb": "Improvised ore blasting bomb to mine ores on a 3 block area.",

@@ -8,7 +8,7 @@
     "debug-entity-empty": "[minerz] Spieler-Entität ist leer",
 
     "item-armor-head-miner": "Bergbauhelm",
-    "itemdesc-armor-head-miner": "Bergbauhelm mit einer kleinen Lampe (funktioniert noch nicht).",
+    "itemdesc-armor-head-miner": "Bergbauhelm mit einer kleinen Lampe.",
 
     "block-small-oreblastingbomb": "Improvisierte Bombe",
     "blockdesc-small-oreblastingbomb": "Improvisierte Bombe zum Abbauen von Erz mit einem Radius von 3 Blöcken.",

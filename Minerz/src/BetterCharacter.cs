@@ -16,7 +16,7 @@ public class BetterCharacter
     public static double maxhealthExtraPoints = -2;
     public static double walkspeed = -0.1;
     
-    public static List<CharacterClass> characterClasses = new()
+    public static List<CharacterClass> CharacterClasses = new()
     {
         new CharacterClass()
         {
@@ -117,7 +117,7 @@ public class BetterCharacter
             __instance.TraitsByCode[trait.Code] = trait;
         }
         
-        foreach (var characterClass in characterClasses.Where(characterClass => !__instance.characterClasses.Contains(characterClass)))
+        foreach (var characterClass in CharacterClasses.Where(characterClass => !__instance.characterClasses.Contains(characterClass)))
         {
             __instance.characterClasses.Add(characterClass);
             __instance.characterClassesByCode[characterClass.Code] = characterClass;
