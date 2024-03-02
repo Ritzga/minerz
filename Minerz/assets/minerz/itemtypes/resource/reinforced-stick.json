@@ -1,0 +1,50 @@
+{
+	"code": "minerz:reinforced-stick",
+	"behaviors": [
+		{ "name": "GroundStorable", 
+			"properties": { 
+				"layout": "Quadrants", 
+				"collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 }
+			}
+		}
+	],
+	"shape": { "base": "item/reinforced-stick" },
+	"attributes": {
+		"placeSound": "sounds/block/loosestick",
+		"groundStorageTransform": {
+			"rotation": { "x": 0, "y": -13, "z": 0 }
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"maxstacksize": 16,
+	"materialDensity": 450,
+	"attackRange": 2.5,
+	"combustibleProps": {
+		"burnTemperature": 1200,
+		"burnDuration": 16
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 72, "y": 143, "z": -30 },
+		"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+		"scale": 1.53
+	},
+	"guiTransform": {
+		"translation": { "x": 6, "y": 4, "z": 0 },
+		"rotation": { "x": -128, "y": -54, "z": -66 },
+		"origin": { "x": 0.58, "y": 0.19, "z": 0.44 },
+		"scale": 1.48
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.22, "y": 0.06, "z": -0.89 },
+		"rotation": { "x": -6, "y": 30, "z": 18 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 0.59
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 5
+	}
+}

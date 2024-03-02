@@ -1,0 +1,63 @@
+﻿[
+    {
+        "ingredientPattern": "KL",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+            "L": { "type": "block", "code": "game:log-placed-*", "allowedVariants": [
+                    "oak-ud",
+                    "walnut-ud"
+                ]
+            }
+        },
+        "name": "minerz:reinforced-stick",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "output": { "type": "item", "code": "minerz:reinforced-stick", "quantity": 4  }
+    },{
+        "ingredientPattern": "KL",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+            "L": { "type": "block", "code": "game:debarkedlog-*", "allowedVariants": [
+                    "oak-ud", 
+                    "walnut-ud"
+                ]
+            }
+        },
+        "name": "minerz:reinforced-stick",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "output": { "type": "item", "code": "minerz:reinforced-stick", "quantity": 4  }
+    },{
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+            "L": { "type": "block", "code": "game:log-placed-*", "allowedVariants": [
+                    "oak-ud",
+                    "walnut-ud"
+                ]
+            }
+        },
+        "name": "minerz:reinforced-stick",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "output": { "type": "item", "code": "minerz:reinforced-stick", "quantity": 4  }
+    },{
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+            "L": { "type": "block", "code": "game:debarkedlog-*", "allowedVariants": [
+                    "oak-ud", 
+                    "walnut-ud"
+                ]
+            }
+        },
+        "name": "minerz:reinforced-stick",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "output": { "type": "item", "code": "minerz:reinforced-stick", "quantity": 4  }
+    }
+]
