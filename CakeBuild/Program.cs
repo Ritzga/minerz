@@ -33,8 +33,7 @@ public class BuildContext : FrostingContext
     public string Name { get; }
     public bool SkipJsonValidation { get; set; }
 
-    public BuildContext(ICakeContext context)
-        : base(context)
+    public BuildContext(ICakeContext context): base(context)
     {
         BuildConfiguration = context.Argument("configuration", "Release");
         SkipJsonValidation = context.Argument("skipJsonValidation", false);

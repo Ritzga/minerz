@@ -32,15 +32,18 @@
 	"variantgroups": [
 		{ 
 			"code": "metal", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]
+		},{ 
+			"code": "wood", "states": ["oak", "walnut"]
 		}
 	],
 	"tool": "pickaxe",
 	"damagedby": ["blockbreaking", "attacking"],
-	"shape": { "base": "game:item/tool/pickaxe" },
+	"shape": { "base": "minerz:item/tool/reinforced-pickaxe" },
 	"heldTpHitAnimation": "smithingwide",
 	"texturesByType": {
 		"*": {
-			"metal": { "base": "game:block/metal/ingot/{metal}" }
+			"metal": { "base": "game:block/metal/ingot/{metal}" },
+			"wood": { "base": "game:block/wood/debarked/{wood}" }
 		}
 	},
 	"tooltierbytype": {

@@ -1,4 +1,5 @@
 {
+	"mainpurpose": "Better stick for better diggy diggy hole!",
 	"code": "minerz:reinforced-stick",
 	"behaviors": [
 		{ "name": "GroundStorable", 
@@ -10,15 +11,28 @@
 	],
 	"shape": { "base": "item/reinforced-stick" },
 	"attributes": {
+		"handbook": {
+			"groupBy": ["reinforced-stick-*"]
+		},
 		"placeSound": "sounds/block/loosestick",
 		"groundStorageTransform": {
 			"rotation": { "x": 0, "y": -13, "z": 0 }
 		}
 	},
+	"variantgroups": [
+		{
+			"code": "wood", "states": ["oak", "walnut"]
+		}
+	],
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"maxstacksize": 16,
 	"materialDensity": 450,
 	"attackRange": 2.5,
+	"texturesByType": {
+		"*": {
+			"wood": { "base": "game:block/wood/debarked/{wood}" }
+		}
+	},
 	"combustibleProps": {
 		"burnTemperature": 1200,
 		"burnDuration": 16

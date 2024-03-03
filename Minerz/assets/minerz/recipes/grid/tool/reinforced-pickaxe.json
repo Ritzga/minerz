@@ -2,12 +2,12 @@
 	"ingredientPattern": "_T_RSR",
 	"ingredients": {
 		"T": {"type": "item", "code": "game:pickaxehead-*", "name": "metal"},
-		"S": {"type": "item", "code": "minerz:reinforced-stick"},
+		"S": {"type": "item", "code": "minerz:reinforced-stick-*", "name": "wood"},
 		"R": {"type": "item", "code": "game:rope"}
 	},
 	"width": 3,
 	"height": 2,
 	"output": { 
-		"type": "item", "code": "minerz:reinforced-pickaxe-{metal}", "quantity": 1
+		"type": "item", "code": "minerz:reinforced-pickaxe-{wood}-{metal}", "quantity": 1
 	}
 }
