@@ -5,6 +5,7 @@
 	"attributes": {
 		"heldItemPitchFollow": 0.9,
 		"handbook": {
+			"include": true,
 			"groupBy": ["reinforced-pickaxe-*"]
 		},
 		"toolrackTransform": {
@@ -30,11 +31,8 @@
 		}
 	}],
 	"variantgroups": [
-		{ 
-			"code": "metal", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]
-		},{ 
-			"code": "wood", "states": ["oak", "walnut"]
-		}
+		{"code": "wood", "states": ["oak", "walnut"]},
+		{"code": "metal", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
 	],
 	"tool": "pickaxe",
 	"damagedby": ["blockbreaking", "attacking"],
@@ -42,8 +40,9 @@
 	"heldTpHitAnimation": "smithingwide",
 	"texturesByType": {
 		"*": {
-			"metal": { "base": "game:block/metal/ingot/{metal}" },
-			"wood": { "base": "game:block/wood/debarked/{wood}" }
+			
+			"wood": { "base": "game:block/wood/debarked/{wood}" },
+			"metal": { "base": "game:block/metal/ingot/{metal}" }
 		}
 	},
 	"tooltierbytype": {
@@ -58,91 +57,172 @@
 		"*-steel": 5
 	},
 	"miningspeedbytype": {
-		"reinforced-pickaxe-copper": {
+		"*-oak-copper": {
 			"ceramic": 2,
 			"stone": 5,
 			"ore": 5,
 			"metal": 5,
 			"ice": 2
 		},
-		"reinforced-pickaxe-bismuthbronze": {
+		"*-oak-bismuthbronze": {
 			"ceramic": 3,
 			"stone": 6,
 			"ore": 6,
 			"metal": 6,
 			"ice": 2.5
 		},
-		"reinforced-pickaxe-tinbronze": {
+		"*-oak-tinbronze": {
 			"ceramic": 2.5,
 			"stone": 7,
 			"ore": 7,
 			"metal": 7,
 			"ice": 2.5
 		},
-		"reinforced-pickaxe-gold": {
+		"*-oak-gold": {
 			"ceramic": 2,
 			"stone": 6,
 			"ore": 6,
 			"metal": 6,
 			"ice": 2.5
 		},
-		"reinforced-pickaxe-silver": {
+		"*-oak-silver": {
 			"ceramic": 2,
 			"stone": 6,
 			"ore": 6,
 			"metal": 6,
 			"ice": 2.5
 		},
-		"reinforced-pickaxe-blackbronze": {
+		"*-oak-blackbronze": {
 			"ceramic": 3,
 			"stone": 7,
 			"ore": 7,
 			"metal": 7,
 			"ice": 3
 		},
-		"reinforced-pickaxe-iron": {
+		"*-oak-iron": {
 			"ceramic": 3,
 			"stone": 8,
 			"ore": 8,
 			"metal": 8,
 			"ice": 8
 		},
-		"reinforced-pickaxe-meteoriciron": {
+		"*-oak-meteoriciron": {
 			"ceramic": 4,
 			"stone": 9,
 			"ore": 9,
 			"metal": 9,
 			"ice": 4
 		},
-		"reinforced-pickaxe-steel": {
+		"*-oak-steel": {
 			"ceramic": 4,
 			"stone": 11,
 			"ore": 12,
 			"metal": 10,
 			"ice": 5
+		},
+		"*-walnut-copper": {
+			"ceramic": 2.3,
+			"stone": 5.3,
+			"ore": 5.3,
+			"metal": 5.3,
+			"ice": 2.3
+		},
+		"*-walnut-bismuthbronze": {
+			"ceramic": 3.3,
+			"stone": 6.3,
+			"ore": 6.3,
+			"metal": 6.3,
+			"ice": 2.8
+		},
+		"*-walnut-tinbronze": {
+			"ceramic": 2.8,
+			"stone": 7.3,
+			"ore": 7.3,
+			"metal": 7.3,
+			"ice": 2.8
+		},
+		"*-walnut-gold": {
+			"ceramic": 2.3,
+			"stone": 6.3,
+			"ore": 6.3,
+			"metal": 6.3,
+			"ice": 2.8
+		},
+		"*-walnut-silver": {
+			"ceramic": 2.3,
+			"stone": 6.3,
+			"ore": 6.3,
+			"metal": 6.3,
+			"ice": 2.8
+		},
+		"*-walnut-blackbronze": {
+			"ceramic": 3.3,
+			"stone": 7.3,
+			"ore": 7.3,
+			"metal": 7.3,
+			"ice": 3.3
+		},
+		"*-walnut-iron": {
+			"ceramic": 3.3,
+			"stone": 8.3,
+			"ore": 8.3,
+			"metal": 8.3,
+			"ice": 8.3
+		},
+		"*-walnut-meteoriciron": {
+			"ceramic": 4.3,
+			"stone": 9.3,
+			"ore": 9.3,
+			"metal": 9.3,
+			"ice": 4.3
+		},
+		"*-walnut-steel": {
+			"ceramic": 4.3,
+			"stone": 11.3,
+			"ore": 12.3,
+			"metal": 10.3,
+			"ice": 5.3
 		}
 	},
 	"attackpowerbytype": {
-		"reinforced-pickaxe-copper": 1.5,
-		"reinforced-pickaxe-bismuthbronze": 2,
-		"reinforced-pickaxe-tinbronze": 2,
-		"reinforced-pickaxe-gold": 2,
-		"reinforced-pickaxe-silver": 2,
-		"reinforced-pickaxe-blackbronze": 2,
-		"reinforced-pickaxe-iron": 3,
-		"reinforced-pickaxe-meteoriciron": 3,
-		"reinforced-pickaxe-steel": 3
+		"*-oak-copper": 1.5,
+		"*-oak-bismuthbronze": 2,
+		"*-oak-tinbronze": 2,
+		"*-oak-gold": 2,
+		"*-oak-silver": 2,
+		"*-oak-blackbronze": 2,
+		"*-oak-iron": 3,
+		"*-oak-meteoriciron": 3,
+		"*-oak-steel": 3,
+		"*-walnut-copper": 1.7,
+		"*-walnut-bismuthbronze": 2.3,
+		"*-walnut-tinbronze": 2.3,
+		"*-walnut-gold": 2.3,
+		"*-walnut-silver": 2.3,
+		"*-walnut-blackbronze": 2.3,
+		"*-walnut-iron": 3.3,
+		"*-walnut-meteoriciron": 3.3,
+		"*-walnut-steel": 3.3
 	},
 	"durabilitybytype": {
-		"reinforced-pickaxe-gold": 270,
-		"reinforced-pickaxe-silver": 310,
-		"reinforced-pickaxe-copper": 525,
-		"reinforced-pickaxe-tinbronze": 790,
-		"reinforced-pickaxe-bismuthbronze": 875,
-		"reinforced-pickaxe-blackbronze": 970,
-		"reinforced-pickaxe-iron": 1750,
-		"reinforced-pickaxe-meteoriciron": 2275,
-		"reinforced-pickaxe-steel": 4375
+		"*-oak-gold": 270,
+		"*-oak-silver": 310,
+		"*-oak-copper": 525,
+		"*-oak-tinbronze": 790,
+		"*-oak-bismuthbronze": 875,
+		"*-oak-blackbronze": 970,
+		"*-oak-iron": 1750,
+		"*-oak-meteoriciron": 2275,
+		"*-oak-steel": 4375,
+		"*-walnut-gold": 250,
+		"*-walnut-silver": 300,
+		"*-walnut-copper": 500,
+		"*-walnut-tinbronze": 700,
+		"*-walnut-bismuthbronze": 800,
+		"*-walnut-blackbronze": 900,
+		"*-walnut-iron": 1500,
+		"*-walnut-meteoriciron": 2000,
+		"*-walnut-steel": 4200
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
 	"guiTransform": {

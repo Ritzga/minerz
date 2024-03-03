@@ -1,0 +1,33 @@
+﻿[
+    {
+        "ingredientPattern": "KL",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 4 },
+            "L": { "type": "block", "code": "game:log-placed-*-ud", "allowedVariants": [
+                    "oak",
+                    "walnut"
+                ], "name": "wood"
+            }
+        },
+        "name": "minerz:handle",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "output": { "type": "item", "code": "minerz:handle-{wood}", "quantity": 4  }
+    },{
+        "ingredientPattern": "KL",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 2 },
+            "L": { "type": "block", "code": "game:debarkedlog-*-ud", "allowedVariants": [
+                    "oak", 
+                    "walnut"
+                ], "name": "wood"
+            }
+        },
+        "name": "minerz:handle",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "output": { "type": "item", "code": "minerz:handle-{wood}", "quantity": 4  }
+    }
+]

@@ -1,0 +1,39 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+## git-lfs ##
+#Image
+*.jpg filter=lfs diff=lfs merge=lfs -text lockable
+*.jpeg filter=lfs diff=lfs merge=lfs -text lockable
+*.png filter=lfs diff=lfs merge=lfs -text lockable
+*.gif filter=lfs diff=lfs merge=lfs -text lockable
+*.psd filter=lfs diff=lfs merge=lfs -text lockable
+*.ai filter=lfs diff=lfs merge=lfs -text lockable
+*.pyxel filter=lfs diff=lfs merge=lfs -text lockable
+*.xcf filter=lfs diff=lfs merge=lfs -text
+#Audio
+*.mp3 filter=lfs diff=lfs merge=lfs -text lockable
+*.wav filter=lfs diff=lfs merge=lfs -text lockable
+*.ogg filter=lfs diff=lfs merge=lfs -text lockable
+#Video
+*.mp4 filter=lfs diff=lfs merge=lfs -text lockable
+*.mov filter=lfs diff=lfs merge=lfs -text lockable
+#3D Object
+*.FBX filter=lfs diff=lfs merge=lfs -text lockable
+*.fbx filter=lfs diff=lfs merge=lfs -text lockable
+*.blend filter=lfs diff=lfs merge=lfs -text lockable
+*.obj filter=lfs diff=lfs merge=lfs -text lockable
+*.glb filter=lfs diff=lfs merge=lfs -text lockable
+*.gltf filter=lfs diff=lfs merge=lfs -text lockable
+#ETC
+*.a filter=lfs diff=lfs merge=lfs -text lockable
+*.exr filter=lfs diff=lfs merge=lfs -text lockable
+*.tga filter=lfs diff=lfs merge=lfs -text lockable
+*.pdf filter=lfs diff=lfs merge=lfs -text lockable
+*.zip filter=lfs diff=lfs merge=lfs -text lockable
+*.dll filter=lfs diff=lfs merge=lfs -text lockable
+*.unitypackage filter=lfs diff=lfs merge=lfs -text lockable
+*.aif filter=lfs diff=lfs merge=lfs -text lockable
+*.ttf filter=lfs diff=lfs merge=lfs -text lockable
+*.rns filter=lfs diff=lfs merge=lfs -text lockable
+*.reason filter=lfs diff=lfs merge=lfs -text lockable
+*.lxo filter=lfs diff=lfs merge=lfs -text lockable

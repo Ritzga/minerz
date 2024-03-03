@@ -1,5 +1,4 @@
 {
-
     "init": "[minerz] minerz chargé",
     "init-client": "[minerz] démarré dans le client",
     "init-client-loaded": "[minerz] classes chargées sur le client",
@@ -15,5 +14,49 @@
     "blockdesc-small-oreblastingbomb": "Bombe improvisée pour extraire des minerais sur une zone de 3 blocs.",
 
     "block-big-oreblastingbomb": "Bombe d'abattage de gros",
-    "blockdesc-big-oreblastingbomb": "Énorme bombe à minerai pour extraire des minerais sur une zone de 8 blocs. Courez après l'allumage!"
+    "blockdesc-big-oreblastingbomb": "Énorme bombe à minerai pour extraire des minerais sur une zone de 8 blocs. Courez après l'allumage!",
+
+    "item-handle-oak": "Manche en chêne",
+    "item-handle-walnut": "Manche en noyer",
+    "itemdesc-handle-*": "Une meilleure poignée pour de meilleures pioches.",
+
+    "item-reinforced-pickaxe-oak-copper": "Pioche en cuivre et chêne renforcé",
+    "item-reinforced-pickaxe-oak-gold": "Pioche en chêne doré renforcée",
+    "item-reinforced-pickaxe-oak-silver": "Pioche en chêne renforcé argenté",
+    "item-reinforced-pickaxe-oak-bismuthbronze": "Pioche renforcée en chêne bismuthbronze",
+    "item-reinforced-pickaxe-oak-tinbronze": "Pioche en chêne renforcé en bronze étain",
+    "item-reinforced-pickaxe-oak-blackbronze": "Pioche en bronze noir en chêne renforcé",
+    "item-reinforced-pickaxe-oak-iron": "Pioche en fer de chêne renforcé",
+    "item-reinforced-pickaxe-oak-meteoriciron": "Pioche météoriciron en chêne renforcé",
+    "item-reinforced-pickaxe-oak-steel": "Pioche en acier chêne renforcé",
+
+    "item-reinforced-pickaxe-walnut-copper": "Pioche en cuivre et noyer renforcé",
+    "item-reinforced-pickaxe-walnut-gold": "Pioche renforcée en noyer doré",
+    "item-reinforced-pickaxe-walnut-silver": "Pioche renforcée en noyer argenté",
+    "item-reinforced-pickaxe-walnut-bismuthbronze": "Pioche renforcée en bronze bismuth en noyer",
+    "item-reinforced-pickaxe-walnut-tinbronze": "Pioche renforcée en bronze étamé en noyer",
+    "item-reinforced-pickaxe-walnut-blackbronze": "Pioche renforcée en bronze noir en noyer",
+    "item-reinforced-pickaxe-walnut-iron": "Pioche en fer noyer renforcé",
+    "item-reinforced-pickaxe-walnut-meteoriciron": "Pioche météoriciron en noyer renforcé",
+    "item-reinforced-pickaxe-walnut-steel": "Pioche renforcée en acier noyer",
+
+    "itemdesc-reinforced-pickaxe-oak-copper": "Version renforcée de la pioche normale en cuivre",
+    "itemdesc-reinforced-pickaxe-oak-gold": "Version renforcée de la pioche en or normale",
+    "itemdesc-reinforced-pickaxe-oak-silver": "Version renforcée de la pioche en argent normale",
+    "itemdesc-reinforced-pickaxe-oak-bismuthbronze": "Version renforcée de la pioche normale en bismuthbronze",
+    "itemdesc-reinforced-pickaxe-oak-tinbronze": "Version renforcée de la pioche normale en bronze étain",
+    "itemdesc-reinforced-pickaxe-oak-blackbronze": "Version renforcée de la pioche normale en bronze noir",
+    "itemdesc-reinforced-pickaxe-oak-iron": "Version renforcée de la pioche en fer normale",
+    "itemdesc-reinforced-pickaxe-oak-meteoriciron": "Version renforcée de la pioche météoriciron normale",
+    "itemdesc-reinforced-pickaxe-oak-steel": "Version renforcée de la pioche en acier normale",
+
+    "itemdesc-reinforced-pickaxe-walnut-copper": "Version renforcée de la pioche normale en cuivre",
+    "itemdesc-reinforced-pickaxe-walnut-gold": "Version renforcée de la pioche en or normale",
+    "itemdesc-reinforced-pickaxe-walnut-silver": "Version renforcée de la pioche en argent normale",
+    "itemdesc-reinforced-pickaxe-walnut-bismuthbronze": "Version renforcée de la pioche normale en bismuthbronze",
+    "itemdesc-reinforced-pickaxe-walnut-tinbronze": "Version renforcée de la pioche normale en bronze étain",
+    "itemdesc-reinforced-pickaxe-walnut-blackbronze": "Version renforcée de la pioche normale en bronze noir",
+    "itemdesc-reinforced-pickaxe-walnut-iron": "Version renforcée de la pioche en fer normale",
+    "itemdesc-reinforced-pickaxe-walnut-meteoriciron": "Version renforcée de la pioche météoriciron normale",
+    "itemdesc-reinforced-pickaxe-walnut-steel": "Version renforcée de la pioche en acier normale"
 }

@@ -14,5 +14,49 @@
     "blockdesc-small-oreblastingbomb": "Improvised ore blasting bomb to mine ores on a 3 block area.",
     
     "block-big-oreblastingbomb": "Big ore blasting bomb",
-    "blockdesc-big-oreblastingbomb": "Huge ore blasting bomb to mine ores on a 8 block area. Run after ignition!"
+    "blockdesc-big-oreblastingbomb": "Huge ore blasting bomb to mine ores on a 8 block area. Run after ignition!",
+
+    "item-handle-oak": "Oak handle",
+    "item-handle-walnut": "Walnut handle",
+    "itemdesc-handle-*": "Better handle for better pickaxes.",
+    
+    "item-reinforced-pickaxe-oak-copper": "Reinforced oak copper pickaxe",
+    "item-reinforced-pickaxe-oak-gold": "Reinforced oak gold pickaxe",
+    "item-reinforced-pickaxe-oak-silver": "Reinforced oak silver pickaxe",
+    "item-reinforced-pickaxe-oak-bismuthbronze": "Reinforced oak bismuthbronze pickaxe",
+    "item-reinforced-pickaxe-oak-tinbronze": "Reinforced oak tinbronze pickaxe",
+    "item-reinforced-pickaxe-oak-blackbronze": "Reinforced oak blackbronze pickaxe",
+    "item-reinforced-pickaxe-oak-iron": "Reinforced oak iron pickaxe",
+    "item-reinforced-pickaxe-oak-meteoriciron": "Reinforced oak meteoriciron pickaxe",
+    "item-reinforced-pickaxe-oak-steel": "Reinforced oak steel pickaxe",
+    
+    "item-reinforced-pickaxe-walnut-copper": "Reinforced walnut copper pickaxe",
+    "item-reinforced-pickaxe-walnut-gold": "Reinforced walnut gold pickaxe",
+    "item-reinforced-pickaxe-walnut-silver": "Reinforced walnut silver pickaxe",
+    "item-reinforced-pickaxe-walnut-bismuthbronze": "Reinforced walnut bismuthbronze pickaxe",
+    "item-reinforced-pickaxe-walnut-tinbronze": "Reinforced walnut tinbronze pickaxe",
+    "item-reinforced-pickaxe-walnut-blackbronze": "Reinforced walnut blackbronze pickaxe",
+    "item-reinforced-pickaxe-walnut-iron": "Reinforced walnut iron pickaxe",
+    "item-reinforced-pickaxe-walnut-meteoriciron": "Reinforced walnut meteoriciron pickaxe",
+    "item-reinforced-pickaxe-walnut-steel": "Reinforced walnut steel pickaxe",
+
+    "itemdesc-reinforced-pickaxe-oak-copper": "Reinforced version of the normal copper pickaxe",
+    "itemdesc-reinforced-pickaxe-oak-gold": "Reinforced version of the normal gold pickaxe",
+    "itemdesc-reinforced-pickaxe-oak-silver": "Reinforced version of the normal silver pickaxe",
+    "itemdesc-reinforced-pickaxe-oak-bismuthbronze": "Reinforced version of the normal bismuthbronze pickaxe",
+    "itemdesc-reinforced-pickaxe-oak-tinbronze": "Reinforced version of the normal tinbronze pickaxe",
+    "itemdesc-reinforced-pickaxe-oak-blackbronze": "Reinforced version of the normal blackbronze pickaxe",
+    "itemdesc-reinforced-pickaxe-oak-iron": "Reinforced version of the normal iron pickaxe",
+    "itemdesc-reinforced-pickaxe-oak-meteoriciron": "Reinforced version of the normal meteoriciron pickaxe",
+    "itemdesc-reinforced-pickaxe-oak-steel": "Reinforced version of the normal steel pickaxe",
+
+    "itemdesc-reinforced-pickaxe-walnut-copper": "Reinforced version of the normal copper pickaxe",
+    "itemdesc-reinforced-pickaxe-walnut-gold": "Reinforced version of the normal gold pickaxe",
+    "itemdesc-reinforced-pickaxe-walnut-silver": "Reinforced version of the normal silver pickaxe",
+    "itemdesc-reinforced-pickaxe-walnut-bismuthbronze": "Reinforced version of the normal bismuthbronze pickaxe",
+    "itemdesc-reinforced-pickaxe-walnut-tinbronze": "Reinforced version of the normal tinbronze pickaxe",
+    "itemdesc-reinforced-pickaxe-walnut-blackbronze": "Reinforced version of the normal blackbronze pickaxe",
+    "itemdesc-reinforced-pickaxe-walnut-iron": "Reinforced version of the normal iron pickaxe",
+    "itemdesc-reinforced-pickaxe-walnut-meteoriciron": "Reinforced version of the normal meteoriciron pickaxe",
+    "itemdesc-reinforced-pickaxe-walnut-steel": "Reinforced version of the normal steel pickaxe"
 }

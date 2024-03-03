@@ -1,6 +1,6 @@
 {
 	"mainpurpose": "Better stick for better diggy diggy hole!",
-	"code": "minerz:reinforced-stick",
+	"code": "minerz:handle",
 	"behaviors": [
 		{ "name": "GroundStorable", 
 			"properties": { 
@@ -9,10 +9,10 @@
 			}
 		}
 	],
-	"shape": { "base": "item/reinforced-stick" },
+	"shape": { "base": "item/handle" },
 	"attributes": {
 		"handbook": {
-			"groupBy": ["reinforced-stick-*"]
+			"groupBy": ["handle-*"]
 		},
 		"placeSound": "sounds/block/loosestick",
 		"groundStorageTransform": {

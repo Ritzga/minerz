@@ -14,5 +14,49 @@
     "blockdesc-small-oreblastingbomb": "Improvisierte Bombe zum Abbauen von Erz mit einem Radius von 3 Blöcken.",
 
     "block-big-oreblastingbomb": "Große Bombe",
-    "blockdesc-big-oreblastingbomb": "Große Bombe zum Abbauen von Erz mit einem Radius von 8 Blöcken. Nach der Zündung sollte man rennen."
+    "blockdesc-big-oreblastingbomb": "Große Bombe zum Abbauen von Erz mit einem Radius von 8 Blöcken. Nach der Zündung sollte man rennen.",
+    
+    "item-handle-oak": "Holzgriff aus Eichenholz",
+    "item-handle-walnut": "Holzgriff aus Wallnussholz",
+    "itemdesc-handle-*": "Ein verstärkter Griff für bessere Spitzhacken",
+
+    "item-reinforced-pickaxe-oak-copper": "Verstärkte Spitzhacke (Kupfer Eiche)",
+    "item-reinforced-pickaxe-oak-gold": "Verstärkte Spitzhacke (Gold Eiche)",
+    "item-reinforced-pickaxe-oak-silver": "Verstärkte Spitzhacke (Silber Eiche)",
+    "item-reinforced-pickaxe-oak-bismuthbronze": "Verstärkte Spitzhacke (Bismutbronze Eiche)",
+    "item-reinforced-pickaxe-oak-tinbronze": "Verstärkte Spitzhacke (Zinnbronze Eiche)",
+    "item-reinforced-pickaxe-oak-blackbronze": "Verstärkte Spitzhacke (Schwarzbronze Eiche)",
+    "item-reinforced-pickaxe-oak-iron": "Verstärkte Spitzhacke (Eisen Eiche)",
+    "item-reinforced-pickaxe-oak-meteoriciron": "Verstärkte Spitzhacke (Meteoreisen Eiche)",
+    "item-reinforced-pickaxe-oak-steel": "Verstärkte Spitzhacke (Stahl Eiche)",
+
+    "itemdesc-reinforced-pickaxe-oak-copper": "Verstärkte Version der Kupferspitzhacke mit Eichengriff",
+    "itemdesc-reinforced-pickaxe-oak-gold": "Verstärkte Version der Goldspitzhacke mit Eichengriff",
+    "itemdesc-reinforced-pickaxe-oak-silver": "Verstärkte Version der Silberspitzhacke mit Eichengriff",
+    "itemdesc-reinforced-pickaxe-oak-bismuthbronze": "Verstärkte Version der Bismutbronzespitzhacke mit Eichengriff",
+    "itemdesc-reinforced-pickaxe-oak-tinbronze": "Verstärkte Version der Zinnbronzespitzhacke mit Eichengriff",
+    "itemdesc-reinforced-pickaxe-oak-blackbronze": "Verstärkte Version der Schwarzbronzespitzhacke mit Eichengriff",
+    "itemdesc-reinforced-pickaxe-oak-iron": "Verstärkte Version der Eisenspitzhacke mit Eichengriff",
+    "itemdesc-reinforced-pickaxe-oak-meteoriciron": "Verstärkte Version der Meteoreisenspitzhacke mit Eichengriff",
+    "itemdesc-reinforced-pickaxe-oak-steel": "Verstärkte Version der Stahlspitzhacke mit Eichengriff",
+    
+    "item-reinforced-pickaxe-walnut-copper": "Verstärkte Spitzhacke (Kupfer Wallnuss)",
+    "item-reinforced-pickaxe-walnut-gold": "Verstärkte Spitzhacke (Gold Wallnuss)",
+    "item-reinforced-pickaxe-walnut-silver": "Verstärkte Spitzhacke (Silber Wallnuss)",
+    "item-reinforced-pickaxe-walnut-bismuthbronze": "Verstärkte Spitzhacke (Bismutbronze Wallnuss)",
+    "item-reinforced-pickaxe-walnut-tinbronze": "Verstärkte Spitzhacke (Zinnbronze Wallnuss)",
+    "item-reinforced-pickaxe-walnut-blackbronze": "Verstärkte Spitzhacke (Schwarzbronze Wallnuss)",
+    "item-reinforced-pickaxe-walnut-iron": "Verstärkte Spitzhacke (Eisen Wallnuss)",
+    "item-reinforced-pickaxe-walnut-meteoriciron": "Verstärkte Spitzhacke (Meteoreisen Wallnuss)",
+    "item-reinforced-pickaxe-walnut-steel": "Verstärkte Spitzhacke (Stahl Wallnuss)",
+
+    "itemdesc-reinforced-pickaxe-walnut-copper": "Verstärkte Version der Kupferspitzhacke mit Wallnussgriff",
+    "itemdesc-reinforced-pickaxe-walnut-gold": "Verstärkte Version der Goldspitzhacke mit Wallnussgriff",
+    "itemdesc-reinforced-pickaxe-walnut-silver": "Verstärkte Version der Silberspitzhacke mit Wallnussgriff",
+    "itemdesc-reinforced-pickaxe-walnut-bismuthbronze": "Verstärkte Version der Bismutbronzespitzhacke mit Wallnussgriff",
+    "itemdesc-reinforced-pickaxe-walnut-tinbronze": "Verstärkte Version der Zinnbronzespitzhacke mit Wallnussgriff",
+    "itemdesc-reinforced-pickaxe-walnut-blackbronze": "Verstärkte Version der Schwarzbronzespitzhacke mit Wallnussgriff",
+    "itemdesc-reinforced-pickaxe-walnut-iron": "Verstärkte Version der Eisenspitzhacke mit Wallnussgriff",
+    "itemdesc-reinforced-pickaxe-walnut-meteoriciron": "Verstärkte Version der Meteoreisenspitzhacke mit Wallnussgriff",
+    "itemdesc-reinforced-pickaxe-walnut-steel": "Verstärkte Version der Stahlspitzhacke mit Wallnussgriff"
 }
