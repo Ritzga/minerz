@@ -1,0 +1,23 @@
+﻿[
+  {
+    "dependsOn": [{ "modid": "xskills" }],
+    "file": "minerz:itemtypes/tool/reinforced-pickaxe",
+    "op": "add",
+    "path": "/class",
+    "value": "XSkillsItemPickaxe"
+  },
+  {
+    "dependsOn": [{ "modid": "xskills" }],
+    "file": "minerz:blocktypes/smalloreblastingbomb",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": { "name": "XSkillsBomb" }
+  },
+  {
+    "dependsOn": [{ "modid": "xskills" }],
+    "file": "minerz:blocktypes/bigoreblastingbomb",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": { "name": "XSkillsBomb","properties": {"xp": 1.5}}
+  }
+]
