@@ -1,58 +1,14 @@
 ﻿{
     "ingredientPattern": "_P_PLP",
     "ingredients": {
-        "P": { "type": "item", "code": "game:metalplate-*", "allowedVariants":
-        [
-            "meteoriciron",
-            "molybdochalkos",
-            "bismuth",
-            "bismuthbronze",
-            "blackbronze",
-            "brass",
-            "chromium",
-            "copper",
-            "cupronickel",
-            "electrum",
-            "gold",
-            "iron",
-            "lead",
-            "platinum",
-            "nickel",
-            "silver",
-            "stainlesssteel",
-            "steel",
-            "tin",
-            "tinbronze",
-            "titanium",
-            "uranium",
-            "zinc"
-        ]
-        },
-        "L": { "type": "block", "code": "game:block-lantern-*", "allowedVariants":
-        [
-            "meteoriciron",
-            "molybdochalkos",
-            "bismuth",
-            "bismuthbronze",
-            "blackbronze",
-            "brass",
-            "copper",
-            "gold",
-            "iron",
-            "silver",
-            "steel",
-            "tinbronze"
-        ]
-        }
+        "P": { "type": "item", "code": "game:metalplate-*"},
+        "L": { "type": "block", "code": "game:lantern-up", "material": "*" }
     },
     "requiresTrait": "miner",
     "width": 3,
     "height": 2,
     "output": {
         "type": "item",
-        "code": "minerz:armor-head-miner",
-        "attributes": {
-            "material": "{material}"
-        }
+        "code": "minerz:armor-head-miner"
     }
 }
