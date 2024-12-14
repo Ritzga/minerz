@@ -2,10 +2,8 @@
 using Minerz.Entity;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
-using Vintagestory.API.Common.Entities;
 using Vintagestory.API.Config;
 using Vintagestory.API.Server;
-using Vintagestory.GameContent;
 
 namespace Minerz
 {
@@ -16,14 +14,14 @@ namespace Minerz
     public class Core : ModSystem
     {
         public static string id = "minerz";
-        private ICoreAPI api;
+        private ICoreAPI coreAPI;
         private Harmony harmony;
         
         // Called on server and client
         // Useful for registering block/entity classes on both sides
         public override void Start(ICoreAPI api)
         {
-            this.api = api;
+            coreAPI = api;
             api.Logger.Notification("minerz:init");
             
             harmony = new Harmony(id);
@@ -38,7 +36,7 @@ namespace Minerz
         {
             api.Logger.Notification(Lang.Get("minerz:init-server"));
             //Easter egg for my bear <3
-            api.Event.PlayerJoin += CheckBearIsJoined;
+            //api.Event.PlayerJoin += CheckBearIsJoined;
         }
 
         public override void StartClientSide(ICoreClientAPI api)

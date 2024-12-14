@@ -12,7 +12,7 @@
     "charattribute-oreDropRate-0.5": "Шанс выпадения руды 50%",
     "charattribute-walkspeed--0.1": "-10% скорости ходьбы",
     "charattribute-maxhealthExtraPoints--2": "-2 дополнительных очка здоровья",
-    "charattribute-hungerrate-0.15": "+15% уровень голода",
+    "charattribute-hungerrate-0.20": "+20% уровень голода",
 
     "characterclass-miner": "Шахтер",
     

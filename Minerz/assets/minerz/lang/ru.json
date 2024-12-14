@@ -1,7 +1,0 @@
-{
-    "init": "[minerz] minerz loaded",
-    "init-client": "[minerz] запущен в клиенте",
-    "init-client-loaded": "[minerz] классы загружены на клиенте",
-    "init-server": "[minerz] запущен на сервере",
-    "init-server-loaded": "[minerz] классы загружены на сервер"
-}

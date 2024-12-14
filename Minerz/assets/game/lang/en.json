@@ -13,7 +13,7 @@
     "charattribute-oreDropRate-0.5": "50% ore drop rate",
     "charattribute-walkspeed--0.1": "-10% walk speed",
     "charattribute-maxhealthExtraPoints--2": "-2 extra health points",
-    "charattribute-hungerrate-0.15": "+15% hunger rate",
+    "charattribute-hungerrate-0.2": "+20% hunger rate",
     
     "characterclass-miner": "Miner",
     "characterdesc-miner": "<font color=\"#99c9f9\"><i>For years, you had toiled away in the dark depths of the earth, extracting coal to fuel the town's industries. But one day, a spark of curiosity ignited within you, urging you to leave behind the familiar and embark on a new journey. With a heavy heart, you bid farewell to his fellow miners and set off on a path unknown. You yearned to explore the world beyond the confines of the mine, to breathe in the fresh air and witness the wonders that lay beyond the coal-stained walls. As you ventured into the outside world, you marveled at the vibrant colors of nature, the gentle caress of the wind, and the warmth of the sun on his face. It was a stark contrast to the darkness and monotony he had grown accustomed to underground.</i></font><br><br>Miners are specialized to be underground, get more ores but because of their old life, but they are a bit slower and getting hungry more often."

@@ -12,7 +12,7 @@
     "charattribute-oreDropRate-0.5": "tasa de caída de mineral del 50%",
     "charattribute-walkspeed--0.1": "-10% de velocidad al caminar",
     "charattribute-maxhealthExtraPoints--2": "-2 vidas extra",
-    "charattribute-hungerrate-0.15": "+15% tasa de hambre",
+    "charattribute-hungerrate-0.2": "+20% tasa de hambre",
 
     "characterclass-miner": "Minero",
 

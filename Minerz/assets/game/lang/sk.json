@@ -12,7 +12,7 @@
     "charattribute-oreDropRate-0.5": "50 % miera poklesu rudy",
     "charattribute-walkspeed--0.1": "-10 % rýchlosť chôdze",
     "charattribute-maxhealthExtraPoints--2": "-2 body zdravia navyše",
-    "charattribute-hungerrate-0.15": "miera hladu + 15 %",
+    "charattribute-hungerrate-0.20": "miera hladu + 20 %",
 
     "characterclass-miner": "Baník",
 

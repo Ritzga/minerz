@@ -10,7 +10,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"material": "entity/humanoid/serapharmor/mining/mining"
+		"material": "entity/humanoid/serapharmor/mining/armor-head-miner"
 	},
 	"elements": [
 		{

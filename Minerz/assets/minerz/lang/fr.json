@@ -6,10 +6,16 @@
     "init-server-loaded": "[minerz] classes chargées sur le serveur",
     "debug-player-empty": "[minerz] le player est vide au moment de l'adhésion",
     "debug-entity-empty": "[minerz] le player est vide au moment de l'adhésion",
-
+    
     "item-armor-head-miner": "Casque de mineur",
     "itemdesc-armor-head-miner": "Casque de mineur avec une lampe.",
+    
+    "item-armor-head-miner-enhanced": "Casque de mineur amélioré",
+    "itemdesc-armor-head-miner-enhanced": "Casque de mineur amélioré avec lampe à incandescence.",
 
+    "item-bigger-miningbag": "Sac minier plus grand",
+    "itemdesc-bigger-miningbag": "Peut contenir plus de pierres, de minerais, de minéraux et de métaux.",
+    
     "block-small-oreblastingbomb": "Bombe improvisée",
     "blockdesc-small-oreblastingbomb": "Bombe improvisée pour extraire des minerais sur une zone de 3 blocs.",
 

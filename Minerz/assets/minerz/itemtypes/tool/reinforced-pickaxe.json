@@ -40,7 +40,6 @@
 	"heldTpHitAnimation": "smithingwide",
 	"texturesByType": {
 		"*": {
-			
 			"wood": { "base": "game:block/wood/debarked/{wood}" },
 			"metal": { "base": "game:block/metal/ingot/{metal}" }
 		}

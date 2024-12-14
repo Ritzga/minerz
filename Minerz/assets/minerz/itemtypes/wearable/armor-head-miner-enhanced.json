@@ -1,0 +1,58 @@
+{
+    "code": "minerz:armor-head-miner-enhanced",
+    "class": "ItemWearable",
+
+    "shape": { "base": "entity/humanoid/seraph/armor/mining/armor-head-miner" },
+    "storageFlags": 128,
+    
+    "attributes": {
+        "rackable": true,
+        "toolrackTransform": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": 180, "y": -90, "z": 0 },
+            "origin": { "x": 0, "y": 0, "z": 0 }
+        },
+        "wearableAttachment": true,
+        "disableElements": ["Hair tile upper part", "ponytailhigh", "ponytaillow",  "hideme", "sidehigh", "sidelow"],
+        "clothescategory": "armorhead",
+        "handbook": { "groupBy": ["miner-*"] },
+        "warmth": 0.25,
+        "itemlight": [7, 7, 4]
+    },
+    
+    "textures": {
+        "seraph": { "base": "game:block/transparent" },
+        "material": {"base": "entity/humanoid/serapharmor/mining/armor-head-miner-enhanced"}
+    },
+
+    "creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+    "renderAlphaTest": 0.25,
+    
+    "durabilityByType": {
+        "*": 1500
+    },
+    "guiTransform": {
+        "translation": { "x": -4, "y": -20, "z": 0 },
+        "rotation": { "x": 180, "y": -50, "z": 2 },
+        "origin": { "x": 1, "y": 2, "z": 1 },
+        "scale": 2
+    },
+    "tpHandTransform": {
+        "translation": { "x": -1.4, "y": -2.1, "z": -1 },
+        "rotation": { "x": 0, "y": -180, "z": 0 },
+        "origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+        "scale": 0.55
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": -1.6, "z": -1 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 4.58
+    },
+    "fpHandTransform": {
+        "translation": { "x": 0.08, "y": -0.21, "z": -0.5 },
+        "rotation": { "x": -2, "y": -5, "z": 21 },
+        "origin": { "x": 5, "y": 2, "z": 5 },
+        "scale": 1.93
+    }
+}

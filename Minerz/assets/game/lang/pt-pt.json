@@ -12,7 +12,7 @@
     "charattribute-oreDropRate-0.5": "Taxa de queda de minério de 50%",
     "charattribute-walkspeed--0.1": "-10% velocidade de caminhada",
     "charattribute-maxhealthExtraPoints--2": "-2 pontos de saúde extras",
-    "charattribute-hungerrate-0.15": "+15% taxa de fome",
+    "charattribute-hungerrate-0.20": "+20% taxa de fome",
 
     "characterclass-miner": "Mineiro",
 

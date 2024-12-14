@@ -1,7 +1,7 @@
 {
 	"ingredientPattern": "FCF,FBF,FFF",
 	"ingredients": {
-		"C": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
+		"C": { "type": "item", "code": "game:flaxtwine"},
 		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 8 },
 		"F": { "type": "item", "code": "game:burnedbrick-*", "name": "material", "allowedVariants": [ "brown",  "blue" ,  "fire" ,  "red"]}
 	},

@@ -12,7 +12,7 @@
     "charattribute-oreDropRate-0.5": "Стопа пада руде од 50%",
     "charattribute-walkspeed--0.1": "-10% брзине хода",
     "charattribute-maxhealthExtraPoints--2": "-2 додатна здравствена поена",
-    "charattribute-hungerrate-0.15": "+15% стопе глади",
+    "charattribute-hungerrate-0.20": "+20% стопе глади",
 
     "characterclass-miner": "Рудар",
 

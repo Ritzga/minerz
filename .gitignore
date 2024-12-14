@@ -674,3 +674,36 @@ fabric.properties
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp,visualstudio,visualstudiocode,rider
+
+# Godot 4+ specific ignores
+.godot/
+
+# Godot-specific ignores
+.import/
+.export/
+export.cfg
+export_presets.cfg
+
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.[Mm]ono/
+data_*/
+mono_crash.*.json
+
+# Common IntelliJ Platform excludes
+/.[Ii]dea/*
+
+# User specific
+[Pp]ackages/
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.blend1
+*.env
+.local.*
+/src/data/data.js
+/src/data/data.min.js
+/src/data/data.min.js.map

@@ -1,0 +1,13 @@
+{
+	"ingredientPattern": "_T_,PLP",
+	"ingredients": {
+		"T": { "type": "block", "code": "game:linen-*" },
+		"L": { "type": "item", "code": "game:miningbag" },
+		"P": { "type": "item", "code": "game:metalplate-*", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze"], "quantity": 6}
+	},
+	"requiresTrait": "miner",
+	"width": 3,
+	"height": 2,
+	"name": "biggerminingbag",
+	"output": { "type": "item", "code": "minerz:bigger-miningbag" }
+}

@@ -10,6 +10,12 @@
     "item-armor-head-miner": "Bergbauhelm",
     "itemdesc-armor-head-miner": "Bergbauhelm mit einer kleinen Lampe.",
 
+    "item-armor-head-miner-enhanced": "Verstärkter Bergbauhelm",
+    "itemdesc-armor-head-miner-enhanced": "Verstärkter Bergbauhelm mit einer Lampe.",
+
+    "item-bigger-miningbag": "Größere Bergbau-Tasche",
+    "itemdesc-bigger-miningbag": "Kann mehr Steine, Erze, Mineralien und Metalle aufnehmen.",
+
     "block-small-oreblastingbomb": "Improvisierte Bombe",
     "blockdesc-small-oreblastingbomb": "Improvisierte Bombe zum Abbauen von Erz mit einem Radius von 3 Blöcken.",
 

@@ -56,7 +56,7 @@ public class EntityBehaviorCheckInCave : EntityBehavior
 #endif
                     var key = entity.WatchedAttributes.GetString("characterClass");
                     //because if you join on a multiplayer for the first time you are a commoner and switch after the character creation to a miner (300s to try)
-                    if (key != null && (key == "miner" || (key != "miner" && tries > maxTries)))
+                    if (key != null && (key == "miner" || key != "miner" && tries > maxTries))
                     {
                         firstRun = false;
                         //check for trait
@@ -114,7 +114,7 @@ public class EntityBehaviorCheckInCave : EntityBehavior
     
     private void OnEnterCave()
     {
-        entity.Stats.Set("hungerrate", "minerstat", -0.15f);
+        entity.Stats.Set("hungerrate", "minerstat", -0.25f);
 #if DEBUG
         api?.Logger.Notification("==================================== under earth ====================================");
 #endif

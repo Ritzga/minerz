@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/server/behaviors/11",
+    "path": "/server/behaviors/-",
     "value": {
       "code": "caveHandler"
     },

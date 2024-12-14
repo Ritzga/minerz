@@ -9,6 +9,12 @@
 
     "item-armor-head-miner": "Miner helmet",
     "itemdesc-armor-head-miner": "Miner helmet with a small lamp.",
+
+    "item-armor-head-miner-enhanced": "Enhanced miner helmet",
+    "itemdesc-armor-head-miner-enhanced": "Enhanced miner helmet with a bright lamp.",
+
+    "item-bigger-miningbag": "Bigger mining bag",
+    "itemdesc-bigger-miningbag": "Can hold more stones, ores, minerals, and metals.",
     
     "block-small-oreblastingbomb": "Improvised ore blasting bomb",
     "blockdesc-small-oreblastingbomb": "Improvised ore blasting bomb to mine ores on a 3 block area.",

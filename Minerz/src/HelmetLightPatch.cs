@@ -1,5 +1,4 @@
-﻿using System;
-using HarmonyLib;
+﻿using HarmonyLib;
 using Vintagestory.API.Common;
 
 namespace Minerz;
@@ -18,13 +17,9 @@ public class HelmetLightPatch
             {
                 //search for head
                 var itemStack = __instance.GearInventory[12]?.Itemstack;
-                if (itemStack != null)
+                if (itemStack is { Item.Code.Path: "armor-head-miner" or "armor-head-miner-enhanced"})
                 {
-                    if (itemStack.Item?.Code?.Path == "armor-head-miner")
-                    {
-
-                        return itemStack.Collectible.Attributes["itemlight"].AsArray<byte>();
-                    }
+                    return itemStack.Collectible.Attributes["itemlight"].AsArray<byte>();
                 }
             }
             catch

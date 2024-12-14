@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using HarmonyLib;
-using Iced.Intel;
 using Vintagestory.API.Common;
 using Vintagestory.GameContent;
 
@@ -12,13 +11,13 @@ public class BetterCharacter
 {
     public static double miningSpeedMul = 0.2;
     public static double oreDropRate = 0.5;
-    public static double hungerrate = 0.15;
+    public static double hungerrate = 0.20;
     public static double maxhealthExtraPoints = -2;
     public static double walkspeed = -0.1;
     
     public static List<CharacterClass> CharacterClasses = new()
     {
-        new CharacterClass()
+        new CharacterClass
         {
             Code = "miner",
             Gear = new JsonItemStack[]
@@ -78,10 +77,10 @@ public class BetterCharacter
 
     public static List<Trait> traits = new()
     {
-        new Trait()
+        new Trait
         {
             Code = "miner",
-            Attributes = new Dictionary<string, double>()
+            Attributes = new Dictionary<string, double>
             {
                 {"miningSpeedMul", miningSpeedMul},
                 {"oreDropRate", oreDropRate},
@@ -89,16 +88,16 @@ public class BetterCharacter
             },
             Type = EnumTraitType.Mixed
         },
-        new Trait()
+        new Trait
         {
             Code = "lovesUnderground",  
             Attributes = new Dictionary<string, double>(),
             Type = EnumTraitType.Positive
         },
-        new Trait()
+        new Trait
         {
             Code = "coalLung",
-            Attributes = new Dictionary<string, double>()
+            Attributes = new Dictionary<string, double>
             {
                 {"maxhealthExtraPoints", maxhealthExtraPoints},
                 {"walkspeed", walkspeed},

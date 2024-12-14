@@ -3,5 +3,66 @@
     "init-client": "[minerz] запущено в клієнті",
     "init-client-loaded": "[minerz] класи завантажено на клієнті",
     "init-server": "[minerz] запущено на сервері",
-    "init-server-loaded": "[minerz] класи завантажено на сервері"
+    "init-server-loaded": "[minerz] класи завантажено на сервері",
+    "debug-player-empty": "[minerz] об'єкт гравця порожній",
+    "debug-entity-empty": "[minerz] player-entity є порожнім",
+
+    "item-armor-head-miner": "Шахтарський шолом",
+    "itemdesc-armor-head-miner": "Шахтарський шолом з маленькою лампою.",
+
+    "item-armor-head-miner-enhanced": "Посилений шахтарський шолом",
+    "itemdesc-armor-head-miner-enhanced": "Посилений шахтарський шолом з ліхтарем",
+
+    "item-bigger-miningbag": "Більша мішок для мінування",
+    "itemdesc-bigger-miningbag": "Містить більше каміння, руд, мінералів та металів",
+
+    "block-small-oreblastingbomb": "Саморобна бомба",
+    "blockdesc-small-oreblastingbomb": "Саморобна бомба для видобутку руди з радіусом у 3 блоки",
+
+    "block-big-oreblastingbomb": "Велика бомба",
+    "blockdesc-big-oreblastingbomb": "Велика бомба для видобутку руди в радіусі 8 блоків. Після детонації потрібно бігти.",
+
+    "item-handle-oak": "Дерев'яне руків'я з деревини дуба",
+    "item-handle-walnut": "Дерев'яне руків'я з деревини горіха",
+    "itemdesc-handle-*": "Посилене руків'я для кращих кирок",
+    
+    "item-reinforced-pickaxe-oak-copper": "Посилена кирка (дуб мідний)",
+    "item-reinforced-pickaxe-oak-gold": "Посилена кирка (дуб золотий)",
+    "item-reinforced-pickaxe-oak-silver": "Армована кирка (дуб сріблястий)",
+    "item-reinforced-pickaxe-oak-bismuth-bronze": "Армована кирка (дуб з вісмутової бронзи)",
+    "item-reinforced-pickaxe-oak-tinbronze": "Посилена кирка (дуб олов'яна бронза)",
+    "item-reinforced-pickaxe-oak-blackbronze": "Кирка посилена (дуб чорна бронза)",
+    "item-reinforced-pickaxe-oak-iron": "Посилена кирка (дуб залізний)", 
+    "item-reinforced-pickaxe-oak-meteoriciron": "Посилена кирка (дуб з метеоритного заліза)",
+    "item-reinforced-pickaxe-oak-steel": "Посилена кирка (дуб сталевий)",
+    
+    "itemdesc-reinforced-pickaxe-oak-copper": "Посилена версія мідної кирки з дубовим держаком",
+    "itemdesc-reinforced-pickaxe-oak-gold": "Посилена версія золотої кирки з дубовим держаком",
+    "itemdesc-reinforced-pickaxe-oak-silver": "Посилена версія срібної кирки з дубовим держаком",
+    "itemdesc-reinforced-pickaxe-oak-bismuthbronze": "Посилена версія кирки з вісмутової бронзи з дубовим держаком",
+    "itemdesc-reinforced-pickaxe-oak-tinbronze": "Посилена версія олов'яно-бронзової кирки з дубовим держаком",
+    "itemdesc-reinforced-pickaxe-oak-blackbronze": "Посилена версія кирки з чорної бронзи з дубовим держаком",
+    "itemdesc-reinforced-pickaxe-oak-iron": "Посилена версія залізної кирки з дубовим держаком",
+    "itemdesc-reinforced-pickaxe-oak-meteoriciron": "Посилена версія кирки з метеоритного заліза з дубовим держаком",
+    "itemdesc-reinforced-pickaxe-oak-steel": "Посилена версія сталевої кирки з дубовим держаком",
+    
+    "item-reinforced-pickaxe-walnut-copper": "Посилена кирка (мідний горіх)",
+    "item-reinforced-pickaxe-walnut-gold": "Посилена кирка (золотий горіх)",
+    "item-reinforced-pickaxe-walnut-silver": "Посилена кирка (срібний горіх)",
+    "item-reinforced-pickaxe-walnut-bismuth-bronze": "Кирка посилена (горіх вісмут-бронза)",
+    "item-reinforced-pickaxe-walnut-tinbronze": "Кирка посилена (горіх олов'яна бронза)",
+    "item-reinforced-pickaxe-walnut-blackbronze": "Кирка посилена (горіх з чорної бронзи)",
+    "item-reinforced-pickaxe-walnut-iron": "Посилена кирка (залізний горіх)",
+    "item-reinforced-pickaxe-walnut-meteoriciron": "Посилена кирка (горіх з метеоритного заліза)",
+    "item-reinforced-pickaxe-walnut-steel": "Посилена кирка (сталевий горіх)",
+
+    "itemdesc-reinforced-pickaxe-walnut-copper": "Посилена версія мідної кирки з руків'ям з горіха",
+    "itemdesc-reinforced-pickaxe-walnut-gold": "Посилена версія золотої кирки з руків'ям з горіха",
+    "itemdesc-reinforced-pickaxe-walnut-silver": "Посилена версія срібної кирки з руків'ям з горіха",
+    "itemdesc-reinforced-pickaxe-walnut-bismuth-bronze": "Посилена версія кирки з вісмутової бронзи з руків'ям з горіха",
+    "itemdesc-reinforced-pickaxe-walnut-tinbronze": "Посилена версія олов'яно-бронзової кирки з руків'ям з горіха",
+    "itemdesc-reinforced-pickaxe-walnut-blackbronze": "Посилена версія кирки з чорної бронзи з руків'ям з горіха",
+    "itemdesc-reinforced-pickaxe-walnut-iron": "Посилена версія залізної кирки з руків'ям з горіха",
+    "itemdesc-reinforced-pickaxe-walnut-meteoriciron": "Посилена версія кирки з метеоритного заліза з руків'ям з горіха",
+    "itemdesc-reinforced-pickaxe-walnut-steel": "Посилена версія сталевої кирки з руків'ям з горіха"
 }
