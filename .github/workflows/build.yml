@@ -1,0 +1,30 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+      - name: Check out Code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Run cake
+        shell : bash
+        env:
+          REGISTRY_TOKEN: ${{ github.token }}
+          CONTAINER_REGISTRY: "ghcr.io"
+        run: |
+          dotnet tool install Cake.Tool
+          dotnet tool restore
+          dotnet cake

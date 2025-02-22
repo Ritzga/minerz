@@ -16,6 +16,7 @@ public class HelmetLightPatch
             try
             {
                 //search for head
+                //World.PlayerByUid(__instance.PlayerUID)?.InventoryManager?.GetHotbarInventory()?[12]  for 1.20
                 var itemStack = __instance.GearInventory[12]?.Itemstack;
                 if (itemStack is { Item.Code.Path: "armor-head-miner" or "armor-head-miner-enhanced"})
                 {
