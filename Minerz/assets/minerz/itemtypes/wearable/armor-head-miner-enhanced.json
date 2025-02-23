@@ -17,7 +17,7 @@
         "clothescategory": "armorhead",
         "handbook": { "groupBy": ["miner-*"] },
         "warmth": 0.25,
-        "itemlight": [7, 7, 4]
+        "itemlight": [10, 4, 31]
     },
     
     "textures": {

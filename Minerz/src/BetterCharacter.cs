@@ -9,13 +9,13 @@ namespace Minerz;
 [HarmonyPatch]
 public class BetterCharacter
 {
-    public static double miningSpeedMul = 0.2;
-    public static double oreDropRate = 0.5;
-    public static double hungerrate = 0.20;
-    public static double maxhealthExtraPoints = -2;
-    public static double walkspeed = -0.1;
-    
-    public static List<CharacterClass> CharacterClasses = new()
+    public const double MiningSpeedMul = 0.2;
+    public const double OreDropRate = 0.5;
+    public const double Hungerrate = 0.20;
+    public const double MaxhealthExtraPoints = -2;
+    public const double Walkspeed = -0.1;
+
+    public static readonly List<CharacterClass> CharacterClasses = new()
     {
         new CharacterClass
         {
@@ -75,16 +75,16 @@ public class BetterCharacter
         },
     };
 
-    public static List<Trait> traits = new()
+    public static readonly List<Trait> Traits = new()
     {
         new Trait
         {
             Code = "miner",
             Attributes = new Dictionary<string, double>
             {
-                {"miningSpeedMul", miningSpeedMul},
-                {"oreDropRate", oreDropRate},
-                {"hungerrate", hungerrate},
+                {"miningSpeedMul", MiningSpeedMul},
+                {"oreDropRate", OreDropRate},
+                {"hungerrate", Hungerrate},
             },
             Type = EnumTraitType.Mixed
         },
@@ -99,8 +99,8 @@ public class BetterCharacter
             Code = "coalLung",
             Attributes = new Dictionary<string, double>
             {
-                {"maxhealthExtraPoints", maxhealthExtraPoints},
-                {"walkspeed", walkspeed},
+                {"maxhealthExtraPoints", MaxhealthExtraPoints},
+                {"walkspeed", Walkspeed},
             },
             Type = EnumTraitType.Negative
         },
@@ -110,7 +110,7 @@ public class BetterCharacter
     [HarmonyPatch(typeof (CharacterSystem), "loadCharacterClasses")]
     public static void ShowCharacterClasses(CharacterSystem __instance)
     {
-        foreach (var trait in traits.Where(trait => !__instance.traits.Contains(trait)))
+        foreach (var trait in Traits.Where(trait => !__instance.traits.Contains(trait)))
         {
             __instance.traits.Add(trait);
             __instance.TraitsByCode[trait.Code] = trait;

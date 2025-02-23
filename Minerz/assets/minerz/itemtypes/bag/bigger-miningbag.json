@@ -1,8 +1,11 @@
 {
 	"code": "minerz:bigger-miningbag",
 	"maxstacksize": 1,
-	"shape": { "base": "game:item/bag/linensack" },
-	"behaviors": [{ "name": "GroundStorable", "properties": { "layout": "SingleCenter", "collisionBox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.375, "z2": 0.75 }}}],
+	"shape": { "base": "game:item/bag/miningbagsturdy" },
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "SingleCenter", "collisionBox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.375, "z2": 0.75 }}},
+		{ "name": "HeldBag" }
+	],	
 	"textures": {
 		"linen": { "base": "game:item/bag/miningbag/linen" },
 		"top": { "base": "game:item/bag/miningbag/top" }
@@ -12,8 +15,8 @@
 	"guiTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },
 		"rotation": { "x": -25, "y": 23, "z": 180 },
-		"origin": { "x": 0.5299, "y": 0.23, "z": 0.5 },
-		"scale": 2.7,
+		"origin": { "x": 0.5299, "y": 0.26, "z": 0.5 },
+		"scale": 2.45,
 		"rotate": true
 	},
 	"fpHandTransform": {
@@ -34,9 +37,9 @@
 	},
 	"attributes": {
 		"backpack": {
-			"quantitySlots": 16,
+			"quantitySlots": 18,
 			"storageFlags": 4,
-			"slotBgColor": "#c2ffe8"
+			"slotBgColor": "#74ffca"
 		}
 	}
 }
