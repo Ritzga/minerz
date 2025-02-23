@@ -16,11 +16,13 @@ public class HelmetLightPatch
             try
             {
                 //search for head
-                //World.PlayerByUid(__instance.PlayerUID)?.InventoryManager?.GetHotbarInventory()?[12]  for 1.20
-                var itemStack = __instance.GearInventory[12]?.Itemstack;
-                if (itemStack is { Item.Code.Path: "armor-head-miner" or "armor-head-miner-enhanced"})
+                var id = __instance.PlayerUID;
+                var inventory = __instance.World.PlayerByUid(id)?.InventoryManager?.Inventories[$"character-{id}"]; //for 1.20
+                var itemSlot = inventory?[12];
+                if (itemSlot?.Itemstack is { Item.Code.Path: "armor-head-miner" or "armor-head-miner-enhanced"})
                 {
-                    return itemStack.Collectible.Attributes["itemlight"].AsArray<byte>();
+                    __result = itemSlot.Itemstack.Collectible.Attributes["itemlight"].AsArray<byte>();
+                    return __result;
                 }
             }
             catch
