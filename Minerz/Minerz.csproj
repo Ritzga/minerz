@@ -3,6 +3,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <OutputPath>bin\$(Configuration)\Mods\minerz</OutputPath>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>

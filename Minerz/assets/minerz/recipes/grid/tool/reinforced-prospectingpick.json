@@ -1,0 +1,26 @@
+[
+	{
+		"ingredientPattern": "KS",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 2
+			},
+			"S": {
+				"type": "item",
+				"code": "minerz:reinforced-pickaxe-*",
+				"name": "base"
+			}
+		},
+		"requiresTrait": "miner",
+		"width": 2,
+		"height": 1,
+		"output": {
+			"type": "item",
+			"code": "minerz:reinforced-prospectingpick-{base}",
+			"quantity": 1
+		}
+	}
+]

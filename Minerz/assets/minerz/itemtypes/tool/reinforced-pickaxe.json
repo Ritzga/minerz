@@ -31,7 +31,7 @@
 		}
 	}],
 	"variantgroups": [
-		{"code": "wood", "states": ["oak", "walnut"]},
+		{"code": "wood", "states": ["oak", "walnut", "redwood", "pine", "ebony"]},
 		{"code": "metal", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
 	],
 	"tool": "pickaxe",
@@ -40,7 +40,7 @@
 	"heldTpHitAnimation": "smithingwide",
 	"texturesByType": {
 		"*": {
-			"wood": { "base": "game:block/wood/debarked/{wood}" },
+			"handle": { "base": "game:block/wood/debarked/{wood}" },
 			"metal": { "base": "game:block/metal/ingot/{metal}" }
 		}
 	},
@@ -56,6 +56,195 @@
 		"*-steel": 5
 	},
 	"miningspeedbytype": {
+		"*-redwood-copper": {
+			"ceramic": 2.1,
+			"stone": 5.4,
+			"ore": 4.9,
+			"metal": 5,
+			"ice": 2.5
+		},
+		"*-redwood-bismuthbronze": {
+			"ceramic": 2.9,
+			"stone": 6.1,
+			"ore": 5.9,
+			"metal": 5.9,
+			"ice": 2.4
+		},
+		"*-redwood-tinbronze": {
+			"ceramic": 3,
+			"stone": 7.1,
+			"ore": 6.9,
+			"metal": 7.2,
+			"ice": 2.6
+		},
+		"*-redwood-gold": {
+			"ceramic": 2,
+			"stone": 6,
+			"ore": 6,
+			"metal": 6,
+			"ice": 2.5
+		},
+		"*-redwood-silver": {
+			"ceramic": 2.1,
+			"stone": 5.9,
+			"ore": 5.8,
+			"metal": 5.9,
+			"ice": 2.6
+		},
+		"*-redwood-blackbronze": {
+			"ceramic": 3.2,
+			"stone": 6.9,
+			"ore": 6.9,
+			"metal": 6.9,
+			"ice": 3.2
+		},
+		"*-redwood-iron": {
+			"ceramic": 3.1,
+			"stone": 7.9,
+			"ore": 7.8,
+			"metal": 8.2,
+			"ice": 7.6
+		},
+		"*-redwood-meteoriciron": {
+			"ceramic": 4.2,
+			"stone": 8.8,
+			"ore": 8.8,
+			"metal": 8.8,
+			"ice": 4.2
+		},
+		"*-redwood-steel": {
+			"ceramic": 4.1,
+			"stone": 11.2,
+			"ore": 11.8,
+			"metal": 9.9,
+			"ice": 5.1
+		},
+		"*-pine-copper": {
+			"ceramic": 1.8,
+			"stone": 4.9,
+			"ore": 5.1,
+			"metal": 5.2,
+			"ice": 1.8
+		},
+		"*-pine-bismuthbronze": {
+			"ceramic": 2.8,
+			"stone": 5.9,
+			"ore": 6.1,
+			"metal": 6.2,
+			"ice": 2.3
+		},
+		"*-pine-tinbronze": {
+			"ceramic": 2.2,
+			"stone": 6.9,
+			"ore": 7.1,
+			"metal": 7.2,
+			"ice": 2.2
+		},
+		"*-pine-gold": {
+			"ceramic": 1.8,
+			"stone": 5.9,
+			"ore": 6.1,
+			"metal": 6.2,
+			"ice": 2.2
+		},
+		"*-pine-silver": {
+			"ceramic": 1.8,
+			"stone": 5.9,
+			"ore": 6.1,
+			"metal": 6.2,
+			"ice": 2.2
+		},
+		"*-pine-blackbronze": {
+			"ceramic": 2.8,
+			"stone": 6.9,
+			"ore": 7.1,
+			"metal": 7.2,
+			"ice": 2.8
+		},
+		"*-pine-iron": {
+			"ceramic": 2.8,
+			"stone": 7.9,
+			"ore": 8.1,
+			"metal": 8.2,
+			"ice": 7.8
+		},
+		"*-pine-meteoriciron": {
+			"ceramic": 3.8,
+			"stone": 8.9,
+			"ore": 9.1,
+			"metal": 9.2,
+			"ice": 3.8
+		},
+		"*-pine-steel": {
+			"ceramic": 8.2,
+			"stone": 10.9,
+			"ore": 12.1,
+			"metal": 10.2,
+			"ice": 4.8
+		},
+		"*-ebony-copper": {
+			"ceramic": 2.2,
+			"stone": 5.2,
+			"ore": 5.2,
+			"metal": 5.2,
+			"ice": 2.2
+		},
+		"*-ebony-bismuthbronze": {
+			"ceramic": 3.2,
+			"stone": 6.2,
+			"ore": 6.2,
+			"metal": 6.2,
+			"ice": 2.7
+		},
+		"*-ebony-tinbronze": {
+			"ceramic": 2.7,
+			"stone": 7.2,
+			"ore": 7.2,
+			"metal": 7.2,
+			"ice": 2.7
+		},
+		"*-ebony-gold": {
+			"ceramic": 2.2,
+			"stone": 6.2,
+			"ore": 6.2,
+			"metal": 6.2,
+			"ice": 2.7
+		},
+		"*-ebony-silver": {
+			"ceramic": 2.2,
+			"stone": 6.2,
+			"ore": 6.2,
+			"metal": 6.2,
+			"ice": 2.7
+		},
+		"*-ebony-blackbronze": {
+			"ceramic": 3.2,
+			"stone": 7.2,
+			"ore": 7.2,
+			"metal": 7.2,
+			"ice": 3.2
+		},
+		"*-ebony-iron": {
+			"ceramic": 3,
+			"stone": 8,
+			"ore": 8,
+			"metal": 8,
+			"ice": 8
+		},
+		"*-ebony-meteoriciron": {
+			"ceramic": 4.2,
+			"stone": 9.2,
+			"ore": 9.2,
+			"metal": 9.2,
+			"ice": 4.2
+		},
+		"*-ebony-steel": {
+			"ceramic": 4.2,
+			"stone": 11.2,
+			"ore": 12.2,
+			"metal": 10.2,
+			"ice": 5.2
+		},
 		"*-oak-copper": {
 			"ceramic": 2,
 			"stone": 5,
@@ -193,6 +382,7 @@
 		"*-oak-iron": 3,
 		"*-oak-meteoriciron": 3,
 		"*-oak-steel": 3,
+		
 		"*-walnut-copper": 1.7,
 		"*-walnut-bismuthbronze": 2.3,
 		"*-walnut-tinbronze": 2.3,
@@ -201,7 +391,37 @@
 		"*-walnut-blackbronze": 2.3,
 		"*-walnut-iron": 3.3,
 		"*-walnut-meteoriciron": 3.3,
-		"*-walnut-steel": 3.3
+		"*-walnut-steel": 3.3,
+		
+		"*-redwood-copper": 1.7,
+		"*-redwood-bismuthbronze": 2.3,
+		"*-redwood-tinbronze": 2.3,
+		"*-redwood-gold": 2.3,
+		"*-redwood-silver": 2.3,
+		"*-redwood-blackbronze": 2.3,
+		"*-redwood-iron": 3.3,
+		"*-redwood-meteoriciron": 3.3,
+		"*-redwood-steel": 3.3,
+		
+		"*-pine-copper": 1.2,
+		"*-pine-bismuthbronze": 1.8,
+		"*-pine-tinbronze": 1.8,
+		"*-pine-gold": 1.8,
+		"*-pine-silver": 1.8,
+		"*-pine-blackbronze": 1.8,
+		"*-pine-iron": 2.8,
+		"*-pine-meteoriciron": 2.8,
+		"*-pine-steel": 2.8,
+		
+		"*-ebony-copper": 1.8,
+		"*-ebony-bismuthbronze": 2.4,
+		"*-ebony-tinbronze": 2.4,
+		"*-ebony-gold": 2.4,
+		"*-ebony-silver": 2.4,
+		"*-ebony-blackbronze": 2.4,
+		"*-ebony-iron": 3.4,
+		"*-ebony-meteoriciron": 3.4,
+		"*-ebony-steel": 3.4
 	},
 	"durabilitybytype": {
 		"*-oak-gold": 270,
@@ -213,6 +433,37 @@
 		"*-oak-iron": 1750,
 		"*-oak-meteoriciron": 2275,
 		"*-oak-steel": 4375,
+		
+		"*-redwood-gold": 270,
+		"*-redwood-silver": 320,
+		"*-redwood-copper": 520,
+		"*-redwood-tinbronze": 730,
+		"*-redwood-bismuthbronze": 840,
+		"*-redwood-blackbronze": 940,
+		"*-redwood-iron": 1570,
+		"*-redwood-meteoriciron": 2100,
+		"*-redwood-steel": 4300,
+		
+		"*-pine-gold": 220,
+		"*-pine-silver": 270,
+		"*-pine-copper": 470,
+		"*-pine-tinbronze": 670,
+		"*-pine-bismuthbronze": 770,
+		"*-pine-blackbronze": 870,
+		"*-pine-iron": 1250,
+		"*-pine-meteoriciron": 1800,
+		"*-pine-steel": 4000,
+		
+		"*-ebony-gold": 300,
+		"*-ebony-silver": 350,
+		"*-ebony-copper": 550,
+		"*-ebony-tinbronze": 800,
+		"*-ebony-bismuthbronze": 900,
+		"*-ebony-blackbronze": 1000,
+		"*-ebony-iron": 1700,
+		"*-ebony-meteoriciron": 2200,
+		"*-ebony-steel": 4500,
+		
 		"*-walnut-gold": 250,
 		"*-walnut-silver": 300,
 		"*-walnut-copper": 500,

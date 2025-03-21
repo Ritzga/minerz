@@ -8,10 +8,10 @@
   },
   {
     "dependsOn": [{ "modid": "xskills" }],
-    "file": "minerz:blocktypes/smalloreblastingbomb",
+    "file": "minerz:itemtypes/tool/reinforced-prospectingpick",
     "op": "add",
-    "path": "/behaviors/-",
-    "value": { "name": "XSkillsBomb" }
+    "path": "/class",
+    "value": "XSkillsItemPickaxe"
   },
   {
     "dependsOn": [{ "modid": "xskills" }],

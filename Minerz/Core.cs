@@ -30,7 +30,9 @@ namespace Minerz
             api.Logger.Notification(api is ICoreServerAPI ? Lang.Get("minerz:init-server-loaded") : Lang.Get("minerz:init-client-loaded"));
             //adds new behavior
             api.RegisterEntityBehaviorClass("caveHandler", typeof(EntityBehaviorCheckInCave));
-        } 
+            //adds new prospector mode
+            api.RegisterItemClass("ReinforcedProspectingPick", typeof(MinerzReinforcedProspectingPick));
+        }
 
         public override void StartServerSide(ICoreServerAPI api)
         {

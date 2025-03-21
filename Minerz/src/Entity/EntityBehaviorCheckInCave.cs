@@ -23,10 +23,8 @@ public class EntityBehaviorCheckInCave : EntityBehavior
     private bool firstRun = true;
     private uint tries;
     private const uint maxTries = 15;
-    
 
-    public EntityBehaviorCheckInCave(Vintagestory.API.Common.Entities.Entity entity)
-        : base(entity)
+    public EntityBehaviorCheckInCave(Vintagestory.API.Common.Entities.Entity entity): base(entity)
     {
     }
     

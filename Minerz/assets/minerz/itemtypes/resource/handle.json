@@ -21,7 +21,7 @@
 	},
 	"variantgroups": [
 		{
-			"code": "wood", "states": ["oak", "walnut"]
+			"code": "wood", "states": ["oak", "walnut", "redwood", "pine", "ebony"]
 		}
 	],
 	"creativeinventory": { "general": ["*"], "items": ["*"] },

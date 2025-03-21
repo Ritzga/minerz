@@ -1,0 +1,145 @@
+{
+	"mainpurpose": "Better findy find ore!",
+	"code": "minerz:reinforced-prospectingpick",
+	"storageFlags": 5,
+	"class": "ReinforcedProspectingPick",
+	"attributes": {
+		"heldItemPitchFollow": 0.9,
+		"handbook": {
+			"groupBy": ["reinforced-prospectingpick-*"]
+		},
+		"toolrackTransform": {
+			"rotation": { "y": 1, "z": -1 },
+			"translation": { "x": -0.3, "y": 0.6 },
+			"scale": 1.25
+		},
+		"groundStorageTransform": {
+			"translation": { "x": 0, "y": 0.1, "z": -0.085 },
+			"rotation": { "x": 26, "y": 88, "z": -87 },
+			"scale": 0.88
+		},
+		"slotRefillIdentifier": "propick"
+	},
+	"behaviors": [{
+		"name": "GroundStorable",
+		"properties": {
+			"layout": "WallHalves",
+			"wallOffY": 1,
+			"ctrlKey": true,
+			"selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+			"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+		}
+	}],
+	"variantgroups": [
+		{"code": "wood", "states": ["oak", "walnut", "redwood", "pine", "ebony"]},
+		{"code": "metal", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+	],
+	"tool": "pickaxe",
+	"damagedby": ["blockbreaking", "attacking"],
+	"shape": { "base": "minerz:item/tool/reinforced-prospectingpick" },
+	"heldTpHitAnimation": "smithing",
+	"texturesByType": {
+		"*": {
+			"handle": {  "base": "game:block/wood/debarked/{wood}" },
+			"metal": { "base": "game:block/metal/ingot/{metal}" }
+		}
+	},
+	"tooltierbytype": {
+		"*-stone": 1,
+		"*-copper": 2,
+		"*-gold": 2,
+		"*-silver": 2,
+		"*-bismuthbronze": 3,
+		"*-tinbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-meteoriciron": 4,
+		"*-steel": 5
+	},
+	"miningspeedbytype": {
+		"reinforced-prospectingpick-*-copper": {
+			"stone": 3,
+			"ore": 2
+		},
+		"reinforced-prospectingpick-*-bismuthbronze": {
+			"stone": 4,
+			"ore": 3
+		},
+		"reinforced-prospectingpick-*-tinbronze": {
+			"stone": 4.2,
+			"ore": 3
+		},
+		"reinforced-prospectingpick-*-gold": {
+			"stone": 3,
+			"ore": 2
+		},
+		"reinforced-prospectingpick-*-silver": {
+			"stone": 3,
+			"ore": 2
+		},
+		"reinforced-prospectingpick-*-blackbronze": {
+			"stone": 4,
+			"ore": 3
+		},
+		"reinforced-prospectingpick-*-iron": {
+			"stone": 5,
+			"ore": 4,
+			"metal": 4
+		},
+		"reinforced-prospectingpick-*-meteoriciron": {
+			"stone": 5.5,
+			"ore": 4,
+			"metal": 4
+		},
+		"reinforced-prospectingpick-*-steel": {
+			"stone": 6.5,
+			"ore": 5
+		}
+	},
+	"attackpowerbytype": {
+		"reinforced-prospectingpick-*-copper": 1.35,
+		"reinforced-prospectingpick-*-bismuthbronze": 1.6,
+		"reinforced-prospectingpick-*-tinbronze": 1.85,
+		"reinforced-prospectingpick-*-gold": 1.85,
+		"reinforced-prospectingpick-*-silver": 1.85,
+		"reinforced-prospectingpick-*-blackbronze": 2.1,
+		"reinforced-prospectingpick-*-iron": 2.35,
+		"reinforced-prospectingpick-*-meteoriciron": 2.45,
+		"reinforced-prospectingpick-*-steel": 2.6
+	},
+	"durabilitybytype": {
+		"reinforced-prospectingpick-*-gold": 120,
+		"reinforced-prospectingpick-*-silver": 150,
+		"reinforced-prospectingpick-*-copper": 230,
+		"reinforced-prospectingpick-*-tinbronze": 280,
+		"reinforced-prospectingpick-*-bismuthbronze": 330,
+		"reinforced-prospectingpick-*-blackbronze": 420,
+		"reinforced-prospectingpick-*-iron": 800,
+		"reinforced-prospectingpick-*-meteoriciron": 1200,
+		"reinforced-prospectingpick-*-steel": 3200
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	"fpHandTransform": {
+		"translation": { "x": -0.4, "y": -0.4, "z": 0.6 },
+		"rotation": { "x": -46, "y": 12, "z": 90 },
+		"origin": { "x": 0.1, "y": 0.5, "z": 0.5 },
+		"scale": 2.5
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 107, "y": -58, "z": -16 },
+		"origin": { "x": 0.44, "y": 0.3, "z": 0.42 },
+		"scale": 1.68
+	},
+	"groundTransform": {
+		"translation": { "x": 0.3, "y": 0.4, "z": -0.2 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.45, "z": 0.5 },
+		"scale": 3.6
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.78, "y": -0.53, "z": -0.11 },
+		"rotation": { "x": 90, "y": 0, "z": -2 },
+		"scale": 0.9
+	}
+}

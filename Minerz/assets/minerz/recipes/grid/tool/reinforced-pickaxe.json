@@ -2,10 +2,7 @@
 	"ingredientPattern": "_T_RSR",
 	"ingredients": {
 		"T": {"type": "item", "code": "game:pickaxehead-*", "name": "metal"},
-		"S": {"type": "item", "code": "minerz:handle-*","allowedVariants": [
-			"oak",
-			"walnut"
-		], "name": "wood"},
+		"S": {"type": "item", "code": "minerz:handle-*","allowedVariants": ["oak", "walnut", "redwood", "pine", "ebony"], "name": "wood"},
 		"R": {"type": "item", "code": "game:rope"}
 	},
 	"requiresTrait": "miner",

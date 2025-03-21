@@ -1,0 +1,92 @@
+﻿[
+  {
+    "dependsOn": [{ "modid": "armory" }],
+    "file": "minerz:itemtypes/wearable/armor-head-miner",
+    "op": "add",
+    "path": "/behaviors",
+    "value":
+    [
+      {
+        "name": "CombatOverhaul:Armor",
+        "properties": {
+          "Layers": [
+            "Outer"
+          ],
+          "ZonesByType": {
+            "*-head-*": [
+              "Head"
+            ],
+            "ResistsByType": {
+              "*-miner-*": {
+                "PiercingAttack": 4,
+                "SlashingAttack": 5,
+                "BluntAttack": 0
+              }
+            },
+            "FlatReductionByType": {
+              "*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 0,
+                "BluntAttack": 0
+              }
+            },
+            "PlayerStatsByType": {
+              "*-miner-*": {
+                "walkspeed": 0,
+                "manipulationSpeed": 0,
+                "steadyAim": 0,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.05
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dependsOn": [{ "modid": "armory" }],
+    "file": "minerz:itemtypes/wearable/armor-head-miner-enhanced",
+    "op": "add",
+    "path": "/behaviors",
+    "value":
+    [
+      {
+        "name": "CombatOverhaul:Armor",
+        "properties": {
+          "Layers": [
+            "Outer"
+          ],
+          "ZonesByType": {
+            "*-head-*": [
+              "Head"
+            ],
+            "ResistsByType": {
+              "*-miner-*": {
+                "PiercingAttack": 4,
+                "SlashingAttack": 5,
+                "BluntAttack": 0
+              }
+            },
+            "FlatReductionByType": {
+              "*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 0,
+                "BluntAttack": 0
+              }
+            },
+            "PlayerStatsByType": {
+              "*-miner-*": {
+                "walkspeed": 0,
+                "manipulationSpeed": 0,
+                "steadyAim": 0,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.05
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

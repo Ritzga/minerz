@@ -1,10 +1,8 @@
 {
     "code": "minerz:armor-head-miner",
     "class": "ItemWearable",
-
     "shape": { "base": "entity/humanoid/seraph/armor/mining/armor-head-miner" },
     "storageFlags": 128,
-    
     "attributes": {
         "rackable": true,
         "toolrackTransform": {
@@ -13,20 +11,17 @@
             "origin": { "x": 0, "y": 0, "z": 0 }
         },
         "wearableAttachment": true,
-        "disableElements": ["Hair tile upper part", "ponytailhigh", "ponytaillow",  "hideme", "sidehigh", "sidelow"],
+        "disableElements": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "sidehigh", "sidelow", "bangs"],
         "clothescategory": "armorhead",
         "handbook": { "groupBy": ["miner-*"] },
         "warmth": 0.35,
         "itemlight": [11, 5, 5]
     },
-    
     "textures": {
         "seraph": { "base": "game:block/transparent" }
     },
-
     "creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"] },
     "renderAlphaTest": 0.25,
-    
     "durabilityByType": {
         "*": 400
     },
